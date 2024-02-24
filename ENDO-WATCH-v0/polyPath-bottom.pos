@@ -1,0 +1,58 @@
+### Footprint positions - created on Sun Feb 11 21:18:45 2024 ###
+### Printed by KiCad version 7.0.9
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                                                                        Package                                    PosX       PosY       Rot  Side
+C17       CAP_CER_10UF_10V_X5R_0603                                                  C_0603_1608Metric                      122.9600   -91.2300  -90.0000  bottom
+C25       CAP_CER_10UF_10V_X5R_0603                                                  C_0603_1608Metric                      124.5600   -91.2500  -90.0000  bottom
+C26       CAP_CER_10UF_10V_X5R_0603                                                  C_0603_1608Metric                      130.1500   -96.5300  180.0000  bottom
+C28       CAP_CER_0.1UF_10V_X7R_0603                                                 C_0603_1608Metric                      119.4250   -67.2300  180.0000  bottom
+C29       CAP_CER_10UF_10V_X5R_0603                                                  C_0603_1608Metric                      127.0500   -94.9300  -90.0000  bottom
+C31       CAP_CER_0.1UF_10V_X7R_0603                                                 C_0603_1608Metric                      119.6500   -72.8300    0.0000  bottom
+C33       CAP_CER_0.1UF_16V_X7R_0402                                                 C_0402_1005Metric                      159.7150  -125.3100    0.0000  bottom
+C34       CAP_CER_0.1UF_16V_X7R_0402                                                 C_0402_1005Metric                      164.8900  -125.3100    0.0000  bottom
+C35       CAP_CER_10UF_16V_X5R_0603                                                  C_0603_1608Metric                      164.5000  -120.4700   90.0000  bottom
+C38       CAP_CER_0.1UF_10V_X7R_0603                                                 C_0603_1608Metric                      171.6200  -119.9000   90.0000  bottom
+C39       CAP_CER_10UF_10V_X5R_0603                                                  C_0603_1608Metric                      176.9804  -112.8700    0.0000  bottom
+C41       CAP_CER_0.1UF_16V_X7R_0402                                                 C_0402_1005Metric                      168.2698  -114.9214    0.0000  bottom
+C42       CAP_CER_0.1UF_16V_X7R_0402                                                 C_0402_1005Metric                      161.8500  -114.8087    0.0000  bottom
+C43       CAP_CER_1UF_10V_X7R_0603                                                   C_0603_1608Metric                      131.3203   -62.5828  -90.0000  bottom
+C45       CAP_CER_10UF_10V_X5R_0603                                                  C_0603_1608Metric                      175.4034  -122.4954    0.0000  bottom
+C52       CAP_CER_10UF_10V_X5R_0603                                                  C_0603_1608Metric                      132.9504   -58.9225   90.0000  bottom
+C53       CAP_CER_10UF_10V_X5R_0603                                                  C_0603_1608Metric                      133.2746   -51.6923  -90.0000  bottom
+C55       CAP_CER_0.1UF_10V_X7R_0603                                                 C_0603_1608Metric                      128.2448   -58.8809  -90.0000  bottom
+C58       CAP_CER_0.1UF_10V_X7R_0603                                                 C_0603_1608Metric                      128.6010   -51.7431   90.0000  bottom
+D1        SS14_-_DIODE_SCHOTTKY_40V_1A_DO214AC                                       SS1-DIODE-SHOTKKY                      119.8900   -88.9250   90.0000  bottom
+D7        LED-RED                                                                    LED_RED                                118.1864   -82.1554  -90.0000  bottom
+HDMI1     CONN_RCPT_MINI_HDMI_19POS_SMD_RA                                           OLD-VERSIONHDMI-MINI                   120.4769   -56.3300   90.0000  bottom
+IC2       Shunt_Voltage_Reference_IC_Fixed_2.5V_V_±0.1%_15_mA_                      LM4040A25IDCKR                         128.5527   -62.6080  180.0000  bottom
+J5        CONN_HEADER_SMD_R/A_2POS_2MM                                               CONNECTOR-BATTERY-S2B-PH-SM4-TB        130.2500  -103.0853  180.0000  bottom
+J6        Connector_Header_Surface_Mount_4_position_0.047"_(1.20mm)                  Connector-motor-valve                  162.1950  -127.6015  180.0000  bottom
+J11       SparkFun_Accessories_Qwiic_JST_Connector-_SMD_4-pin                        STEMMA                                 128.5500   -49.2660    0.0000  bottom
+R16       RES_270K_OHM_1%_1/16W_0402                                                 R_0402_1005Metric                      125.8400   -90.5400  -90.0000  bottom
+R17       RES_100K_OHM_1%_1/16W_0402                                                 R_0402_1005Metric                      125.8200   -92.4800  -90.0000  bottom
+R20       RES_SMD_1K_OHM_1%_1/10W_0603                                               R_0603_1608Metric                      135.0900   -91.1100  180.0000  bottom
+R21       RES_SMD_100K_OHM_0.1%_1/10W_0603                                           R_0603_1608Metric                      135.1050   -89.5400  180.0000  bottom
+R25       RES_3.3K_OHM_1%_1/10W_0603                                                 R_0603_1608Metric                      119.4500   -64.0300    0.0000  bottom
+R26       RES_2K_OHM_1%_1/10W_0603                                                   R_0603_1608Metric                      119.4500   -65.6300  180.0000  bottom
+R27       RES_1K_OHM_1%_1/16W_0402                                                   R_0402_1005Metric                      131.6500   -86.9000    0.0000  bottom
+R28       RES_1K_OHM_1%_1/16W_0402                                                   R_0402_1005Metric                      127.8250   -87.7200  -90.0000  bottom
+R29       RES_442K_OHM_1%_1/10W_0603                                                 R_0603_1608Metric                      119.6500   -76.0300  180.0000  bottom
+R30       RES_160K_OHM_1%_1/10W_0603                                                 R_0603_1608Metric                      119.6500   -74.4300    0.0000  bottom
+R32       RES_10K_OHM_1%_1/16W_0402                                                  R_0402_1005Metric                      168.2498  -116.0898    0.0000  bottom
+R33       RES_10K_OHM_1%_1/16W_0402                                                  R_0402_1005Metric                      161.8300  -115.8227    0.0000  bottom
+R34       RES_330_OHM_1%_1/10W_0603                                                  R_0603_1608Metric                      130.5303   -64.9028    0.0000  bottom
+R35       RES_10K_OHM_1%_1/16W_0402                                                  R_0402_1005Metric                      173.6500  -113.1300  180.0000  bottom
+R36       RES_169K_OHM_1%_1/16W_0402                                                 R_0402_1005Metric                      174.9042  -124.0028    0.0000  bottom
+R37       RES_30.1K_OHM_0.1%_0.13W_0402                                              R_0402_1005Metric                      174.9042  -125.0442  180.0000  bottom
+R46       RES_4.99K_OHM_0.1%_0.21W_0603                                              R_0603_1608Metric                      131.4264   -58.8717   90.0000  bottom
+R49       RES_36K_OHM_0.1%_0.21W_0603                                                R_0603_1608Metric                      129.8196   -58.8529  -90.0000  bottom
+R51       RES_4.99K_OHM_0.1%_0.21W_0603                                              R_0603_1608Metric                      131.6998   -51.7431  -90.0000  bottom
+R52       RES_36K_OHM_0.1%_0.21W_0603                                                R_0603_1608Metric                      130.1758   -51.7431   90.0000  bottom
+R53       RES_1M_OHM_1%_1/16W_0402                                                   R_0402_1005Metric                      126.6192   -58.6604  -90.0000  bottom
+TH1       ULTRA_THIN_10K_THERMISTOR_-_B395                                           PinHeader_2x01_P2.00mm_Vertical_SMD    160.9600  -101.2816  -90.0000  bottom
+U7        MCP73871-2CCI/ML_Charger_IC_Lithium_Ion/Polymer_20-QFN_(4x4)               MCP73871-last-version                  130.3500   -91.3023    0.0000  bottom
+U9        L9110                                                                      L9110-SOP-8_L4.9-W3.9-P1.27-LS6.0-BL   168.1500  -120.4772  180.0000  bottom
+U10       L9110                                                                      L9110-SOP-8_L4.9-W3.9-P1.27-LS6.0-BL   160.9400  -120.4172  180.0000  bottom
+U11       TPS7A7001DDA_Linear_Voltage_Regulator_IC_Positive_Adjustable_1_Output_2A_  TPS7A7001DDA                           175.0500  -117.4300  -90.0000  bottom
+## End

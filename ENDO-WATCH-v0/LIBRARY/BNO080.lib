@@ -1,0 +1,49 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# BNO080
+#
+DEF BNO080 U 0 40 Y Y 1 L N
+F0 "U" -800 1050 50 H V L BNN
+F1 "BNO080" -800 -1150 50 H V L BNN
+F2 "IC_BNO080" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Hillcrest Laboratories," 0 0 50 H I L BNN "MF"
+F5 "1.180 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "TFLGA-28 Hillcrest Laboratories," 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/BNO080/Hillcrest+Laboratories%252C+Inc./view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F9 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F10 "1.6" 0 0 50 H I L BNN "PARTREV"
+F11 "https://www.snapeda.com/parts/BNO080/Hillcrest+Laboratories%252C+Inc./view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F12 "BNO080" 0 0 50 H I L BNN "MP"
+F13 "\nAccelerometer, Gyroscope, Magnetometer, 9 Axis Sensor I²C, SPI, UART Output\n" 0 0 50 H I L BNN "Description"
+F14 "Not in stock" 0 0 50 H I L BNN "Availability"
+F15 "Hillcrest Laboratories, Inc." 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -800 -1000 800 1000 0 0 6 f
+X GND 2 1000 -900 200 L 40 40 0 0 W 
+X ~RST 11 -1000 400 200 R 40 40 0 0 I 
+X CAP 9 -1000 -500 200 R 40 40 0 0 P 
+X VDD 3 1000 900 200 L 40 40 0 0 W 
+X XIN32 27 1000 -400 200 L 40 40 0 0 I 
+X XOUT32/CLKSEL1 26 1000 -500 200 L 40 40 0 0 O 
+X ENV_SDA 16 1000 0 200 L 40 40 0 0 B 
+X ENV_SCL 15 1000 100 200 L 40 40 0 0 B C
+X ~BOOT 4 -1000 300 200 R 40 40 0 0 I 
+X ~H_INT 14 1000 600 200 L 40 40 0 0 O 
+X H_SCL/SCK/RX 19 1000 400 200 L 40 40 0 0 B 
+X H_SDA/H_MISO/TX 20 1000 300 200 L 40 40 0 0 B 
+X SA0/H_MOSI 17 -1000 0 200 R 40 40 0 0 I 
+X VDDIO 28 1000 800 200 L 40 40 0 0 W 
+X GNDIO 25 1000 -800 200 L 40 40 0 0 W 
+X ~H_CS 18 -1000 100 200 R 40 40 0 0 I 
+X CLKSEL0 10 -1000 600 200 R 40 40 0 0 I 
+X PS0/WAKE 6 -1000 -200 200 R 40 40 0 0 I 
+X PS1 5 -1000 -300 200 R 40 40 0 0 I 
+ENDDRAW
+ENDDEF
+#
+# End Library
