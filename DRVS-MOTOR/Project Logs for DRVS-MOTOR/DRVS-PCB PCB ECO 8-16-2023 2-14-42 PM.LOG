@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=TP6-1
+Removed Member From Class: ClassName=stepper-schematic Member=TP6
+Added Member To Class: ClassName=stepper-schematic Member=Component J10 90120-0122
+Added Member To Class: ClassName=stepper-schematic Member=Component J12 90120-0122
+Added Member To Class: ClassName=stepper-schematic Member=Component TP7 D3082-05

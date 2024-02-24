@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=EN_IN1 Pin=U2-46
+Added Pin To Net: NetName=EN_IN1 Pin=U2-11
+Added Pin To Net: NetName=PH_IN2 Pin=U2-12
+Added Pin To Net: NetName=nSLEEP Pin=U2-13
+Added Pin To Net: NetName=VREF Pin=U2-14

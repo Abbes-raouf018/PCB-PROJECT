@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=+3V3 Pin=J4-4
+Added Pin To Net: NetName=+3V3 Pin=C14-1
+Added Pin To Net: NetName=+3V3 Pin=J3-3
+Added Pin To Net: NetName=+3V3 Pin=R3-1
+Added Pin To Net: NetName=+3V3 Pin=R8-1
+Added Pin To Net: NetName=+3V3 Pin=RP1-3
+Added Pin To Net: NetName=+3V3 Pin=RP2-3
+Added Pin To Net: NetName=+3V3 Pin=U3-5
+Change Net Name : Old Net Name=+3V3 New Net Name=VCC
+Added Pin To Net: NetName=+3V3 Pin=J4-4
+Added Net: Name=+3V3
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C8 0.1uF
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component R16 10K

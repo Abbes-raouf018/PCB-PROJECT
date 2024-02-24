@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=TRQ0 Pin=U2-25
+Removed Pin From Net: NetName=TRQ1 Pin=U2-26
+Added Pin To Net: NetName=TRQ1 Pin=U2-25
+Added Pin To Net: NetName=TRQ0 Pin=U2-26

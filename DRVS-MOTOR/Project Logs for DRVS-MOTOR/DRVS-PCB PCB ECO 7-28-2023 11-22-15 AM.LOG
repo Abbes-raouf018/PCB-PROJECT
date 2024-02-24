@@ -1,0 +1,63 @@
+Added Pin To Net: NetName=nFAULT Pin=D1-1
+Added Pin To Net: NetName=GND Pin=J8-5
+Added Pin To Net: NetName=nSLEEP Pin=U1-3
+Added Pin To Net: NetName=OUT1 Pin=U1-8
+Added Pin To Net: NetName=OUT2 Pin=U1-10
+Added Pin To Net: NetName=XTALA Pin=U2-5
+Added Pin To Net: NetName=XTALB Pin=U2-6
+Added Pin To Net: NetName=V3P3 Pin=U4-4
+Added Pin To Net: NetName=VUSB Pin=U4-20
+Added Pin To Net: NetName=GND Pin=U4-26
+Added Pin To Net: NetName=BOOT0 Pin=J7-3
+Added Pin To Net: NetName=BOOT0 Pin=R9-2
+Added Net: Name=BOOT0
+Added Pin To Net: NetName=BOOT1 Pin=J7-4
+Added Pin To Net: NetName=BOOT1 Pin=R16-2
+Added Net: Name=BOOT1
+Added Pin To Net: NetName=D_P Pin=U2-33
+Added Net: Name=D_P
+Added Pin To Net: NetName=DM Pin=J8-2
+Added Pin To Net: NetName=DM Pin=U4-16
+Added Net: Name=DM
+Added Pin To Net: NetName=DP Pin=J8-3
+Added Pin To Net: NetName=DP Pin=U4-15
+Added Net: Name=DP
+Added Pin To Net: NetName=EN_IN1 Pin=U1-1
+Added Net: Name=EN_IN1
+Added Pin To Net: NetName=NRST Pin=SW1-2
+Added Net: Name=NRST
+Added Pin To Net: NetName=PB12 Pin=R13-1
+Added Net: Name=PB12
+Added Pin To Net: NetName=PH_IN2 Pin=U1-2
+Added Net: Name=PH_IN2
+Added Pin To Net: NetName=PMODE Pin=J3-2
+Added Pin To Net: NetName=PMODE Pin=U1-16
+Added Net: Name=PMODE
+Added Pin To Net: NetName=RX Pin=U4-5
+Added Net: Name=RX
+Added Pin To Net: NetName=SPD_REF_1 Pin=RP1-2
+Added Net: Name=SPD_REF_1
+Added Pin To Net: NetName=SPD_REF_2 Pin=RP2-2
+Added Net: Name=SPD_REF_2
+Added Pin To Net: NetName=STATUS Pin=R10-1
+Added Net: Name=STATUS
+Added Pin To Net: NetName=SWCLK Pin=J4-2
+Added Pin To Net: NetName=SWCLK Pin=U2-37
+Added Net: Name=SWCLK
+Added Pin To Net: NetName=SWDIO Pin=J4-3
+Added Pin To Net: NetName=SWDIO Pin=U2-34
+Added Net: Name=SWDIO
+Added Pin To Net: NetName=TX Pin=U4-1
+Added Net: Name=TX
+Added Pin To Net: NetName=VREF Pin=U1-5
+Added Net: Name=VREF
+Added Pin To Net: NetName=XTALC Pin=U2-3
+Added Pin To Net: NetName=XTALC Pin=Y2-1
+Added Net: Name=XTALC
+Added Pin To Net: NetName=XTALD Pin=U2-4
+Added Pin To Net: NetName=XTALD Pin=Y2-4
+Added Net: Name=XTALD
+Add Differential Pair: Number of nets in differential pair NetIC1_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetIC1_3 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetIC1_4 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetIC1_6 is 1 instead of 2

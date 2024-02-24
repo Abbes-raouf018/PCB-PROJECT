@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=OUT2 Pin=J6-1
+Removed Pin From Net: NetName=OUT1 Pin=J6-2
+Added Pin To Net: NetName=OUT1 Pin=J6-1
+Added Pin To Net: NetName=OUT2 Pin=J6-2
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C8 0.1uF
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component R16 10K
+Added Member To Class: ClassName=stepper-schematic Member=Component TP1 D3082-05

@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=R? NewDesignator=R9
+Change Component Designator: OldDesignator=R? NewDesignator=R16
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR16_2
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component R16 10K

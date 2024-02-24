@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VM Pin=C22-1
+Removed Pin From Net: NetName=GND Pin=C22-2
+Removed Pin From Net: NetName=VM Pin=J9-1
+Removed Pin From Net: NetName=GND Pin=J9-2
+Removed Member From Class: ClassName=stepper-schematic Member=C22
+Removed Member From Class: ClassName=stepper-schematic Member=J9

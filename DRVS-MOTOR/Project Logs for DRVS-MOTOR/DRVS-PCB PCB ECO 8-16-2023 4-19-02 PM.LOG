@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=RX Pin=U2-17
+Added Pin To Net: NetName=TX Pin=U2-18
+Added Pin To Net: NetName=PIN20 Pin=U2-38
+Added Pin To Net: NetName=PIN19 Pin=U2-39
+Added Pin To Net: NetName=TOFF Pin=U2-40
+Added Pin To Net: NetName=PB12 Pin=U2-43

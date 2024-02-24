@@ -1,0 +1,16 @@
+Removed Member From Class: ClassName=DRVS-SCHEMA Member=C23
+Removed Member From Class: ClassName=usb sheet Member=C23
+Removed Member From Class: ClassName=DRVS-SCHEMA Member=C24
+Removed Member From Class: ClassName=usb sheet Member=C24
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C11 12pF
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C12 12pF
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C13 885012207103
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C14 C0603C475K8PACTU
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C15 0.1uF
+Added Member To Class: ClassName=usb sheet Member=Component C16 GRM155R61A105KE15D
+Added Member To Class: ClassName=usb sheet Member=Component C17 GRM155R61A104KA01D
+Added Member To Class: ClassName=usb sheet Member=Component C18 GRM155R61A104KA01D
+Added Member To Class: ClassName=usb sheet Member=Component C19 CGB3B1X5R1A475K055AC
+Added Member To Class: ClassName=stepper-schematic Member=Component C20 C0603C474K9RACTU
+Added Member To Class: ClassName=stepper-schematic Member=Component C21 C0805C104K1RACTU
+Added Member To Class: ClassName=stepper-schematic Member=Component C22 C0805C104K1RACTU

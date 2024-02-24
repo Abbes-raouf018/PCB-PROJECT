@@ -1,0 +1,396 @@
+Added Component: Designator=1(CAP_0805)
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C0805C220J5GACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "399-1113-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603L
+Add Component: Footprint Not Found BT_1000x1250
+Add Component: Footprint Not Found 0603L
+Add Component: Footprint Not Found 0603L
+Added Component: Designator=C8(CAP_0805)
+Add component (AddParameter): Name = "Case/Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturing Part Number"; Value = "C0805C104J5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "399-1171-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Added Component: Designator=C9(CAP_0805)
+Add component (AddParameter): Name = "Case/Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturing Part Number"; Value = "C0805C104J5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "399-1171-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Added Component: Designator=C10(CAP_0805)
+Add component (AddParameter): Name = "Case/Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturing Part Number"; Value = "C0805C104J5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "399-1171-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Added Component: Designator=C11(CAP_0805)
+Add component (AddParameter): Name = "Case/Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturing Part Number"; Value = "C0805C104J5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "399-1171-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Added Component: Designator=C12(CAP_0805)
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C0805C220J5GACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "399-1113-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Added Component: Designator=C13(CAP_0805)
+Add component (AddParameter): Name = "Case/Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturing Part Number"; Value = "C0805C104J5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "399-1171-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 0805L
+Add Component: Footprint Not Found 0603L
+Add Component: Footprint Not Found WL-SMCW_RED
+Add Component: Footprint Not Found WL-SMCW_GREEN
+Add Component: Footprint Not Found WURTH_61300311121
+Add Component: Footprint Not Found Harwin_D3082-05
+Added Component: Designator=J4(CON4_100_40D72_TH_ST_MALE)
+Add component (AddParameter): Name = "Case/Package"; Value = "TH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturing Part Number"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "NA"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found Wurth_691101710002
+Add Component: Footprint Not Found Wurth_691101710002
+Added Component: Designator=J7(CON6_100_59D78_TH_ST_Duplicate)
+Add component (AddParameter): Name = "Case/Package"; Value = "TH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "NA"; VariantName = "[No Variations]"
+Added Component: Designator=LED1(LED_0805)
+Add component (AddParameter): Name = "Case/ Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Lite-On Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "LTST-C170EKT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "160-1178-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Added Component: Designator=LED2(LED_0805)
+Add component (AddParameter): Name = "Case/ Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Lite-On Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "LTST-C170EKT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "160-1178-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 0603L
+Add Component: Footprint Not Found 0603L
+Add Component: Footprint Not Found 0603L
+Add Component: Footprint Not Found 0603L
+Added Component: Designator=R9(RES_0805)
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturing Part Number"; Value = "RC0805FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "311-10.0KCRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 0603L
+Added Component: Designator=R11(RES_0805)
+Add component (AddParameter): Name = "Case/Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Rohm Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturing Part Number"; Value = "KTR10EZPF1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "RHM10.0MAHCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RES_0805)
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "??á"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RC0805FR-071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "311-1.00KCRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RES_0805)
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "??á"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RC0805FR-071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "311-1.00KCRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Added Component: Designator=R14(RES_0805)
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturing Part Number"; Value = "RC0805FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "311-10.0KCRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 0603L
+Added Component: Designator=R16(RES_0805)
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturing Part Number"; Value = "RC0805FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "311-10.0KCRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found Bourns_3352T
+Add Component: Footprint Not Found Bourns_3352T
+Add Component: Footprint Not Found Wurth_60900213421
+Added Component: Designator=SW1(SW_342_SMD)
+Add component (AddParameter): Name = "Case/Package"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "C&K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturing Part Number"; Value = "KSR223GLFG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "401-1704-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found Testpoint_Keystone_Compact
+Add Component: Footprint Not Found Testpoint_Keystone_Compact
+Add Component: Footprint Not Found Testpoint_Keystone_Compact
+Add Component: Footprint Not Found Testpoint_Keystone_Compact
+Add Component: Footprint Not Found DBV0005A_N
+Add Component: Footprint Not Found PWP0016J_N
+Added Component: Designator=U3(LQFP-48_19.6_393_58X11_SMD)
+Add component (AddParameter): Name = "Case/Package"; Value = "48-LQFP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "STM32F103C8T6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "497-6063-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found DBV0005A_N
+Added Component: Designator=Y1(XTAL_314_240X47_SMD)
+Add component (AddParameter): Name = "Case/Package"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "IQD Frequency Products"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturing Part Number"; Value = "LFXTAL030234Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "449-LFXTAL030234REEL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Mouser"; VariantName = "[No Variations]"
+Added Component: Designator=Y2(XTAL_MC-405 32.7680K-G3)
+Add component (AddParameter): Name = "Case/Package"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Epson"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturing Part Number"; Value = "MC-405 32.7680K-G3: ROHS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "732-MC405327680KG3RS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "Mouser"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C5-2
+Add Pin To Net: Unknown Pin: Pin C6-2
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C13-1
+Add Pin To Net: Unknown Pin: Pin C14-2
+Add Pin To Net: Unknown Pin: Pin C15-2
+Add Pin To Net: Unknown Pin: Pin D2-1
+Add Pin To Net: Unknown Pin: Pin J2-1
+Add Pin To Net: Unknown Pin: Pin J3-1
+Add Pin To Net: Unknown Pin: Pin J3-2
+Added Pin To Net: NetName=GND Pin=J4-1
+Add Pin To Net: Unknown Pin: Pin J5-2
+Added Pin To Net: NetName=GND Pin=J7-5
+Added Pin To Net: NetName=GND Pin=J7-6
+Add Pin To Net: Unknown Pin: Pin R6-1
+Add Pin To Net: Unknown Pin: Pin R7-1
+Added Pin To Net: NetName=GND Pin=R12-1
+Add Pin To Net: Unknown Pin: Pin RP1-1
+Add Pin To Net: Unknown Pin: Pin RP2-1
+Added Pin To Net: NetName=GND Pin=SW1-1
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-5
+Add Pin To Net: Unknown Pin: Pin U2-9
+Add Pin To Net: Unknown Pin: Pin U2-15
+Add Pin To Net: Unknown Pin: Pin U2-17
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Pin To Net: NetName=GND Pin=U3-23
+Added Pin To Net: NetName=GND Pin=U3-35
+Added Pin To Net: NetName=GND Pin=U3-47
+Add Pin To Net: Unknown Pin: Pin U4-3
+Add Pin To Net: Unknown Pin: Pin U4-4
+Added Pin To Net: NetName=GND Pin=Y2-2
+Added Pin To Net: NetName=GND Pin=Y2-3
+Added Pin To Net: NetName=+3V3 Pin=C8-2
+Added Pin To Net: NetName=+3V3 Pin=C9-2
+Added Pin To Net: NetName=+3V3 Pin=C10-2
+Added Pin To Net: NetName=+3V3 Pin=C11-2
+Added Pin To Net: NetName=+3V3 Pin=J4-4
+Added Pin To Net: NetName=+3V3 Pin=J7-1
+Added Pin To Net: NetName=+3V3 Pin=J7-2
+Added Pin To Net: NetName=+3V3 Pin=LED1-A
+Added Pin To Net: NetName=+3V3 Pin=LED2-A
+Added Pin To Net: NetName=+3V3 Pin=R14-2
+Added Pin To Net: NetName=+3V3 Pin=U3-1
+Added Pin To Net: NetName=+3V3 Pin=U3-9
+Added Pin To Net: NetName=+3V3 Pin=U3-24
+Added Pin To Net: NetName=+3V3 Pin=U3-36
+Added Pin To Net: NetName=+3V3 Pin=U3-48
+Added Net: Name=+3V3
+Added Net: Name=3V3
+Added Net: Name=5V
+Added Pin To Net: NetName=BOOT0 Pin=J7-3
+Added Pin To Net: NetName=BOOT0 Pin=R9-2
+Added Net: Name=BOOT0
+Added Pin To Net: NetName=BOOT1 Pin=J7-4
+Added Pin To Net: NetName=BOOT1 Pin=R16-2
+Added Net: Name=BOOT1
+Added Net: Name=CPH
+Added Net: Name=CPL
+Added Pin To Net: NetName=D_N Pin=U3-32
+Added Net: Name=D_N
+Added Pin To Net: NetName=D_P Pin=U3-33
+Added Net: Name=D_P
+Added Net: Name=EN_IN1
+Added Net: Name=IMODE
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetC13_2 Pin=C13-2
+Added Pin To Net: NetName=NetC13_2 Pin=R14-1
+Added Net: Name=NetC13_2
+Added Net: Name=NetC14_1
+Added Net: Name=NetD1_2
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetLED1_K Pin=LED1-K
+Added Pin To Net: NetName=NetLED1_K Pin=R12-2
+Added Net: Name=NetLED1_K
+Added Pin To Net: NetName=NetLED2_K Pin=LED2-K
+Added Pin To Net: NetName=NetLED2_K Pin=R13-2
+Added Net: Name=NetLED2_K
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=NetR9_1 Pin=U3-44
+Added Net: Name=NetR9_1
+Added Pin To Net: NetName=NetR16_1 Pin=R16-1
+Added Pin To Net: NetName=NetR16_1 Pin=U3-20
+Added Net: Name=NetR16_1
+Added Net: Name=nFAULT
+Added Pin To Net: NetName=NRST Pin=SW1-2
+Added Pin To Net: NetName=NRST Pin=U3-7
+Added Net: Name=NRST
+Added Net: Name=nSLEEP
+Added Net: Name=OUT1
+Added Net: Name=OUT2
+Added Pin To Net: NetName=PA0 Pin=U3-10
+Added Net: Name=PA0
+Added Pin To Net: NetName=PA1 Pin=U3-11
+Added Net: Name=PA1
+Added Pin To Net: NetName=PA2 Pin=U3-12
+Added Net: Name=PA2
+Added Pin To Net: NetName=PA3 Pin=U3-13
+Added Net: Name=PA3
+Added Pin To Net: NetName=PA4 Pin=U3-14
+Added Net: Name=PA4
+Added Pin To Net: NetName=PA5 Pin=U3-15
+Added Net: Name=PA5
+Added Pin To Net: NetName=PA6 Pin=U3-16
+Added Net: Name=PA6
+Added Pin To Net: NetName=PA7 Pin=U3-17
+Added Net: Name=PA7
+Added Pin To Net: NetName=PA8 Pin=U3-29
+Added Net: Name=PA8
+Added Pin To Net: NetName=PA9 Pin=U3-30
+Added Net: Name=PA9
+Added Pin To Net: NetName=PA10 Pin=U3-31
+Added Net: Name=PA10
+Added Pin To Net: NetName=PA15 Pin=U3-38
+Added Net: Name=PA15
+Added Pin To Net: NetName=PB0 Pin=U3-18
+Added Net: Name=PB0
+Added Pin To Net: NetName=PB1 Pin=U3-19
+Added Net: Name=PB1
+Added Pin To Net: NetName=PB3 Pin=U3-39
+Added Net: Name=PB3
+Added Pin To Net: NetName=PB4 Pin=U3-40
+Added Net: Name=PB4
+Added Pin To Net: NetName=PB5 Pin=U3-41
+Added Net: Name=PB5
+Added Pin To Net: NetName=PB6 Pin=U3-42
+Added Net: Name=PB6
+Added Pin To Net: NetName=PB7 Pin=U3-43
+Added Net: Name=PB7
+Added Pin To Net: NetName=PB8 Pin=U3-45
+Added Net: Name=PB8
+Added Pin To Net: NetName=PB9 Pin=U3-46
+Added Net: Name=PB9
+Added Pin To Net: NetName=PB10 Pin=U3-21
+Added Net: Name=PB10
+Added Pin To Net: NetName=PB11 Pin=U3-22
+Added Net: Name=PB11
+Added Pin To Net: NetName=PB12 Pin=R13-1
+Added Pin To Net: NetName=PB12 Pin=U3-25
+Added Net: Name=PB12
+Added Pin To Net: NetName=PB13 Pin=U3-26
+Added Net: Name=PB13
+Added Pin To Net: NetName=PB14 Pin=U3-27
+Added Net: Name=PB14
+Added Pin To Net: NetName=PB15 Pin=U3-28
+Added Net: Name=PB15
+Added Pin To Net: NetName=PC13 Pin=U3-2
+Added Net: Name=PC13
+Added Net: Name=PH_IN2
+Added Net: Name=PMODE
+Added Net: Name=SPD_REF_1
+Added Net: Name=SPD_REF_2
+Added Net: Name=STATUS
+Added Pin To Net: NetName=SWCLK Pin=J4-2
+Added Pin To Net: NetName=SWCLK Pin=U3-37
+Added Net: Name=SWCLK
+Added Pin To Net: NetName=SWDIO Pin=J4-3
+Added Pin To Net: NetName=SWDIO Pin=U3-34
+Added Net: Name=SWDIO
+Added Net: Name=V_IPROPI
+Added Net: Name=VCC
+Added Net: Name=VM
+Added Net: Name=VREF
+Added Pin To Net: NetName=XTALA Pin=C12-2
+Added Pin To Net: NetName=XTALA Pin=R11-1
+Added Pin To Net: NetName=XTALA Pin=U3-5
+Added Pin To Net: NetName=XTALA Pin=Y1-1
+Added Net: Name=XTALA
+Added Pin To Net: NetName=XTALB Pin=1-2
+Added Pin To Net: NetName=XTALB Pin=R11-2
+Added Pin To Net: NetName=XTALB Pin=U3-6
+Added Pin To Net: NetName=XTALB Pin=Y1-2
+Added Net: Name=XTALB
+Added Pin To Net: NetName=XTALC Pin=U3-3
+Added Pin To Net: NetName=XTALC Pin=Y2-1
+Added Net: Name=XTALC
+Added Pin To Net: NetName=XTALD Pin=U3-4
+Added Pin To Net: NetName=XTALD Pin=Y2-4
+Added Net: Name=XTALD
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component 1 22pF
+Add Class Member: Failed to add class member : Component C1 GRM188R71A225KE15D
+Add Class Member: Failed to add class member : Component C2 GRM188R61C475KAAJ
+Add Class Member: Failed to add class member : Component C3 GRM188R61C475KAAJ
+Add Class Member: Failed to add class member : Component C4 885012206095
+Add Class Member: Failed to add class member : Component C5 UBT1H101MPD1TD
+Add Class Member: Failed to add class member : Component C6 885012206095
+Add Class Member: Failed to add class member : Component C7 885012206091
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C8 0.1uF
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C9 0.1uF
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C10 0.1uF
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C11 0.1uF
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C12 22pF
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C13 0.1uF
+Add Class Member: Failed to add class member : Component C14 885012207103
+Add Class Member: Failed to add class member : Component C15 C0603C475K8PACTU
+Add Class Member: Failed to add class member : Component D1 150060RS75000
+Add Class Member: Failed to add class member : Component D2 150060VS75000
+Add Class Member: Failed to add class member : Component J2 61300311121
+Add Class Member: Failed to add class member : Component J3 D3082-05
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component J4 4X1 Bergstrip
+Add Class Member: Failed to add class member : Component J5 CMP-0054828-1
+Add Class Member: Failed to add class member : Component J6 CMP-0054828-1
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component J7 2X3 Berg Strip
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component LED1 RED LED
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component LED2 RED LED
+Add Class Member: Failed to add class member : Component R5 ERA-3ARW103V
+Add Class Member: Failed to add class member : Component R6 CRCW06031K50JNEA
+Add Class Member: Failed to add class member : Component R7 ERJ-3GEY0R00V
+Add Class Member: Failed to add class member : Component R8 CRCW0603330RJNEA
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component R9 10K
+Add Class Member: Failed to add class member : Component R10 CRCW0603330RJNEA
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component R11 10Mohm
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component R12 1K
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component R13 1K
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component R14 10K
+Add Class Member: Failed to add class member : Component R15 ERJ-3GEY0R00V
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component R16 10K
+Add Class Member: Failed to add class member : Component RP1 3352T-1-503LF
+Add Class Member: Failed to add class member : Component RP2 3352T-1-503LF
+Add Class Member: Failed to add class member : Component SH-J1 60900213421
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component SW1 TACT SWITCH
+Add Class Member: Failed to add class member : Component TP1 5016
+Add Class Member: Failed to add class member : Component TP2 5016
+Add Class Member: Failed to add class member : Component TP3 5016
+Add Class Member: Failed to add class member : Component TP4 5015
+Add Class Member: Failed to add class member : Component U1 TLV70433DBVR
+Add Class Member: Failed to add class member : Component U2 DRV8874PWPR
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component U3 STM32F103C8T6
+Add Class Member: Failed to add class member : Component U4 TPS7B6933DBVR
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component Y1 8MHz
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component Y2 32.768KHz

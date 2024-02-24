@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=USB_N Pin=J8-2
+Added Pin To Net: NetName=USB_N Pin=U4-15
+Added Net: Name=USB_N
+Added Pin To Net: NetName=USB_P Pin=J8-3
+Added Pin To Net: NetName=USB_P Pin=U4-16
+Added Net: Name=USB_P
+Added Differential Pair: Name=USB
+Added Class: Name=DIFFPAIR-90-USB

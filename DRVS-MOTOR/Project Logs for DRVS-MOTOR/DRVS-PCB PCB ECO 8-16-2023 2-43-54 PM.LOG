@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=PB5 Pin=R9-1
+Removed Pin From Net: NetName=BOOT0 Pin=R9-2
+Removed Pin From Net: NetName=BOOT1 Pin=R16-2
+Removed Member From Class: ClassName=DRVS-SCHEMA Member=C15
+Removed Member From Class: ClassName=DRVS-SCHEMA Member=R9
+Removed Member From Class: ClassName=DRVS-SCHEMA Member=R16
+Removed Member From Class: ClassName=stepper-schematic Member=TP3
+Added Component: Designator=R?(RESC2012X65N)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CRG0805F33R/TE+Connectivity+Passive+Product/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "EU_RoHS_Compliance"; Value = "Compliant with Exemptions"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CRG0805F33R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/CRG0805F33R/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CRG0805F33R/TE+Connectivity+Passive+Product/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC2012X65N)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CRG0805F33R/TE+Connectivity+Passive+Product/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "EU_RoHS_Compliance"; Value = "Compliant with Exemptions"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CRG0805F33R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/CRG0805F33R/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CRG0805F33R/TE+Connectivity+Passive+Product/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BOOT1 Pin=R?-1
+Added Pin To Net: NetName=PB5 Pin=R?-1
+Added Pin To Net: NetName=BOOT0 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=U2-20
+Added Net: Name=NetR?_2
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component 1 434113025826
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C10 12pF
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component C12 C0603C475K8PACTU
+Added Member To Class: ClassName=usb sheet Member=Component C14 GRM155R61A105KE15D
+Added Member To Class: ClassName=usb sheet Member=Component C16 GRM155R61A104KA01D
+Added Member To Class: ClassName=stepper-schematic Member=Component C18 C0603C474K9RACTU
+Added Member To Class: ClassName=stepper-schematic Member=Component C20 C0805C104K1RACTU
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component R? 10K
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component R? 10K
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component TP2 5015
+Added Member To Class: ClassName=DRVS-SCHEMA Member=Component TP3 5015
+Added Member To Class: ClassName=stepper-schematic Member=Component TP5 D3082-05

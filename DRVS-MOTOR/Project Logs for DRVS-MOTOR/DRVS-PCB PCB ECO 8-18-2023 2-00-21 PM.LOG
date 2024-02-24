@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=SPD_REF_1 Pin=U2-7
+Added Pin To Net: NetName=NRST Pin=U2-7

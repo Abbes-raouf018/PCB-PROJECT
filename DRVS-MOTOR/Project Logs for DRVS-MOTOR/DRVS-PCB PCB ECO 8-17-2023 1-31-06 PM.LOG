@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=OUT1 Pin=TP1-1
+Removed Pin From Net: NetName=OUT2 Pin=TP2-1
+Removed Pin From Net: NetName=VM Pin=TP3-1
+Removed Member From Class: ClassName=DRVS-SCHEMA Member=TP1
+Removed Member From Class: ClassName=DRVS-SCHEMA Member=TP2
+Change Component Designator: OldDesignator=TP4 NewDesignator=TP1
+Added Member To Class: ClassName=stepper-schematic Member=Component TP1 D3082-05
