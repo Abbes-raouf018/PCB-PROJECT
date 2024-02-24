@@ -1,0 +1,67 @@
+Removed Pin From Net: NetName=NetC3_1 Pin=R9-1
+Removed Pin From Net: NetName=NetC9_2 Pin=R9-2
+Removed Pin From Net: NetName=NetC10_2 Pin=R10-1
+Removed Pin From Net: NetName=NetC9_2 Pin=R11-1
+Removed Pin From Net: NetName=GND Pin=R11-2
+Change Component Footprint: Designator=R1 Old Footprint=0603L New Footprint=RES_0603
+Change Component Footprint: Designator=R7 Old Footprint=0603L New Footprint=RES_0603
+Change Component Footprint: Designator=R9 Old Footprint=0603L New Footprint=RES_0603
+Change Component Footprint: Designator=R10 Old Footprint=0603L New Footprint=RES_0603
+Change Component Footprint: Designator=R2 Old Footprint=0603L New Footprint=RESAD1590W60L630D240
+Change Component Footprint: Designator=R4 Old Footprint=0603L New Footprint=RESAD1590W60L630D240
+Change Component Footprint: Designator=R6 Old Footprint=0603L New Footprint=RESAD1590W60L630D240
+Change Component Footprint: Designator=R8 Old Footprint=0603L New Footprint=RESAD1590W60L630D240
+Change Component Comment : Designator=R2 Old Comment=ERA-3ARW103V New Comment=0.15O
+Change Component Comment : Designator=R4 Old Comment=ERA-3ARW103V New Comment=0.15O
+Change Component Comment : Designator=R6 Old Comment=ERA-3ARW103V New Comment=0.15O
+Change Component Comment : Designator=R8 Old Comment=ERA-3ARW103V New Comment=0.15O
+Change component parameters: Designator = "R6" ("R6"); Footprint = "0603L"; UniqueID = "\LNNHQXAK" ("\LNNHQXAK")
+Change component parameters (AddParameter): Name = "Case/Size Code"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Thick Film Resistors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/560050310002?ad"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/560050310002?ad"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.35mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "1mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "560050310002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Match Code"; Value = "WRIS-KSKE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Max"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Min"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "0.91A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Power"; Value = "0.125W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "0.15O"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance Tolerance"; Value = "+/-1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technical Reference"; Value = "KE0402R150F108IAATH0000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient of Resistance"; Value = "300ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.5mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8" ("R8"); Footprint = "0603L"; UniqueID = "\ZZDWDZKN" ("\ZZDWDZKN")
+Change component parameters (AddParameter): Name = "Case/Size Code"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Thick Film Resistors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/560050310002?ad"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/560050310002?ad"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.35mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "1mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "560050310002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Match Code"; Value = "WRIS-KSKE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Max"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Min"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "0.91A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Power"; Value = "0.125W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "0.15O"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance Tolerance"; Value = "+/-1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technical Reference"; Value = "KE0402R150F108IAATH0000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient of Resistance"; Value = "300ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.5mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC9_2 Pin=R9-1
+Added Pin To Net: NetName=NetC3_1 Pin=R9-2
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Pin To Net: NetName=NetC9_2 Pin=R10-2
