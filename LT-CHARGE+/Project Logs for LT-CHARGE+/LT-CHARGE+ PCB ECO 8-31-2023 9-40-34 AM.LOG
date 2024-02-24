@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=GND Pin=J2-
+Removed Pin From Net: NetName=GND Pin=J2-
+Change Footprint: Cannot match pads with new footprint in component :J2 Footprint:GCT_USB3080-XX-01-A_REVE

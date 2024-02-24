@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=+5 Pin=J2-1
+Removed Pin From Net: NetName=B+ Pin=S1-2
+Change Net Name : Old Net Name=vin New Net Name=+5V
+Added Pin To Net: NetName=VBUS Pin=J2-1
+Added Pin To Net: NetName=VBUS Pin=S1-2
+Added Net: Name=VBUS

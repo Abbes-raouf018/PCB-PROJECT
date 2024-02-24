@@ -1,0 +1,587 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD23\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">8/29/2023</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2:17:41 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc" class="file"><acronym title="C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc">C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">81</td></tr>
+</table>
+</td>
+</table><a name="IDYH0JMUAHO2ZNEW12HPOQ5OLGNFDYJLSJ5MBCO5DEKB2ZZKM5ZAXN"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDY4IAHZRD1RUSIIM0ZKCIRXLYKG5AJDTKQSBN1FOQD0KFQQ3SNEUM">Clearance Constraint (Gap=0.2mm) (All),(All)</a></td>
+<td class="column2">8</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQLXOHUR00F10HOG1WAKHBSU4ICCNWAOYFP1RK4GET14ZOZ4AYHBI">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">8</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4UFXSBQ3I4ERDYOCDTS1XZC1FEHU15LWWIVGRPEABIY2GVCHW5OP">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">63</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDP5YQB4QTRDGGUSRATJEGYCBJPU4YIZ0NMQDWAKLHQ2GDADDO1VH">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIJKBM5OVWPSSLTLOLEBTEW0S5NBRIPKP52ORT5LUWRU5UW4HU1CO">Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSHGZ3V4TXZXSKGYLYDRXVFCDVJSEUHWL0RBDEOOXDEQXD5FEHLKD">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDU3ZBGCLPVY5ZVCRR3MUXKJT3MKXKR22N52U53I2D4KT4TF5CP3I">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSGQYTIZBGO1LPC4ZP3NTFFKVYFRVM2KBFGLWOCLNZW3JBUMF2AIJ">Hole To Hole Clearance (Gap=0.2mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3XZSR5JBSWC3GAI53AODWUC2TBPDF11VNPMITID51BW0DY4I1DPK">Minimum Solder Mask Sliver (Gap=0.05mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDEABDRUVGLERQI0YL0PKUNMR25DJG1XP5HCNKU1CNY0CRA0GRZPM">Silk To Solder Mask (Clearance=0.05mm) (IsPad),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNQNRYMOWKCIJNKBTA4ZDRZPC3NPDLKA4FF0CDILQTSW5M2DTYVLI">Silk to Silk (Clearance=0.05mm) (All),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYSCPONZ5OV5AOI2XR104AZZYFEGNK0ZWPGJIYXFZI0133HMZ5MVK">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID05F44UXIJI0GG5CXE5P1GDGW4OV0AMXLQW3TQDK2E21GOTOV3F3">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">81</td>
+</tr>
+</table><br><a name="IDY4IAHZRD1RUSIIM0ZKCIRXLYKG5AJDTKQSBN1FOQD0KFQQ3SNEUM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=0.2mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6253.765mil|Location2.X=6260.014mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6253.765mil|Location2.X=6260.014mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.2mm) Between Pad J2-(158.925mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6253.765mil|Location2.X=6260.014mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6253.765mil|Location2.X=6260.014mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.2mm) Between Pad J2-(158.925mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6253.765mil|Location2.X=6260.014mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6253.765mil|Location2.X=6260.014mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.2mm) Between Pad J2-(158.925mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6253.765mil|Location2.X=6260.014mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6253.765mil|Location2.X=6260.014mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.2mm) Between Pad J2-(158.925mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6476.206mil|Location2.X=6482.455mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6476.206mil|Location2.X=6482.455mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.2mm) Between Pad J2-(164.575mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6476.206mil|Location2.X=6482.455mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6476.206mil|Location2.X=6482.455mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.2mm) Between Pad J2-(164.575mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6476.206mil|Location2.X=6482.455mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6476.206mil|Location2.X=6482.455mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.2mm) Between Pad J2-(164.575mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6476.206mil|Location2.X=6482.455mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6476.206mil|Location2.X=6482.455mil|Location1.Y=1359.08mil|Location2.Y=1365.329mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.2mm) Between Pad J2-(164.575mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDQLXOHUR00F10HOG1WAKHBSU4ICCNWAOYFP1RK4GET14ZOZ4AYHBI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Short-Circuit Constraint (Allowed=No) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad J2-(158.925mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad J2-(158.925mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad J2-(158.925mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad J2-(158.925mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad J2-(164.575mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad J2-(164.575mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Bottom Layer Location : [X = 0mm][Y = 0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad J2-(164.575mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=125795.18mil|Location2.X=-125795.18mil|Location1.Y=125795.18mil|Location2.Y=-125795.18mil|Absolute=True">Short-Circuit Constraint: Between Pad J2-(164.575mm,34.6mm) on Multi-Layer And Region (0 hole(s)) Top Layer Location : [X = 0mm][Y = 0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID4UFXSBQ3I4ERDYOCDTS1XZC1FEHU15LWWIVGRPEABIY2GVCHW5OP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6425.197mil|Location2.X=6460.63mil|Location1.Y=1942.914mil|Location2.Y=2058.071mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6425.197mil|Location2.X=6460.63mil|Location1.Y=1942.914mil|Location2.Y=2058.071mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C1-1(163.65mm,51.875mm) on Top Layer And Pad R5-1(163.8mm,49.7mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6425.197mil|Location2.X=6758.839mil|Location1.Y=1927.953mil|Location2.Y=2125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6425.197mil|Location2.X=6758.839mil|Location1.Y=1927.953mil|Location2.Y=2125mil|Absolute=True">Un-Routed Net Constraint: Net B+ Between Pad C1-2(163.65mm,53.575mm) on Top Layer And Pad J1-5(170.862mm,49.37mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6425.197mil|Location2.X=6492.126mil|Location1.Y=2093.504mil|Location2.Y=2204.724mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6425.197mil|Location2.X=6492.126mil|Location1.Y=2093.504mil|Location2.Y=2204.724mil|Absolute=True">Un-Routed Net Constraint: Net B+ Between Pad C1-2(163.65mm,53.575mm) on Top Layer And Pad R1-2(164.425mm,55.55mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6323.819mil|Location2.X=6387.795mil|Location1.Y=1898.622mil|Location2.Y=2010.827mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6323.819mil|Location2.X=6387.795mil|Location1.Y=1898.622mil|Location2.Y=2010.827mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C2-1(161.025mm,50.625mm) on Top Layer And Pad C6-1(161.75mm,48.925mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6256.89mil|Location2.X=6297.244mil|Location1.Y=1898.622mil|Location2.Y=2010.827mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6256.89mil|Location2.X=6297.244mil|Location1.Y=1898.622mil|Location2.Y=2010.827mil|Absolute=True">Un-Routed Net Constraint: Net +5V Between Pad C2-2(159.325mm,50.625mm) on Top Layer And Pad C6-2(159.45mm,48.925mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6323.819mil|Location2.X=6422.244mil|Location1.Y=2030.512mil|Location2.Y=2245.079mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6323.819mil|Location2.X=6422.244mil|Location1.Y=2030.512mil|Location2.Y=2245.079mil|Absolute=True">Un-Routed Net Constraint: Net B- Between Pad C3-1(161.025mm,52.025mm) on Top Layer And Pad IC1-6(162.475mm,56.65mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6256.89mil|Location2.X=6422.244mil|Location1.Y=2030.512mil|Location2.Y=2207.677mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6256.89mil|Location2.X=6422.244mil|Location1.Y=2030.512mil|Location2.Y=2207.677mil|Absolute=True">Un-Routed Net Constraint: Net NetC3_2 Between Pad C3-2(159.325mm,52.025mm) on Top Layer And Pad IC1-5(162.475mm,55.7mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6725.394mil|Location2.X=6767.717mil|Location1.Y=1459.646mil|Location2.Y=1587.598mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6725.394mil|Location2.X=6767.717mil|Location1.Y=1459.646mil|Location2.Y=1587.598mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C7-1(171.325mm,37.775mm) on Top Layer And Pad C4-1(171.4mm,39.625mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6815.945mil|Location2.X=6858.268mil|Location1.Y=1459.646mil|Location2.Y=1587.598mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6815.945mil|Location2.X=6858.268mil|Location1.Y=1459.646mil|Location2.Y=1587.598mil|Absolute=True">Un-Routed Net Constraint: Net NetC4_2 Between Pad C7-2(173.625mm,37.775mm) on Top Layer And Pad C4-2(173.7mm,39.625mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6734.252mil|Location2.X=6858.268mil|Location1.Y=1532.48mil|Location2.Y=1879.921mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6734.252mil|Location2.X=6858.268mil|Location1.Y=1532.48mil|Location2.Y=1879.921mil|Absolute=True">Un-Routed Net Constraint: Net NetC4_2 Between Pad L1-2(172.05mm,46.775mm) on Top Layer And Pad C4-2(173.7mm,39.625mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6348.425mil|Location2.X=6387.795mil|Location1.Y=1822.667mil|Location2.Y=1953.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6348.425mil|Location2.X=6387.795mil|Location1.Y=1822.667mil|Location2.Y=1953.74mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C5-1(161.75mm,46.996mm) on Top Layer And Pad C6-1(161.75mm,48.925mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6257.874mil|Location2.X=6297.244mil|Location1.Y=1822.667mil|Location2.Y=1953.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6257.874mil|Location2.X=6297.244mil|Location1.Y=1822.667mil|Location2.Y=1953.74mil|Absolute=True">Un-Routed Net Constraint: Net +5V Between Pad C5-2(159.45mm,46.996mm) on Top Layer And Pad C6-2(159.45mm,48.925mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6257.874mil|Location2.X=6353.346mil|Location1.Y=1701.772mil|Location2.Y=1877.785mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6257.874mil|Location2.X=6353.346mil|Location1.Y=1701.772mil|Location2.Y=1877.785mil|Absolute=True">Un-Routed Net Constraint: Net +5V Between Pad C5-2(159.45mm,46.996mm) on Top Layer And Pad D3-1(160.6mm,44.375mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6348.425mil|Location2.X=6460.63mil|Location1.Y=1898.622mil|Location2.Y=1970.473mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6348.425mil|Location2.X=6460.63mil|Location1.Y=1898.622mil|Location2.Y=1970.473mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C6-1(161.75mm,48.925mm) on Top Layer And Pad R5-1(163.8mm,49.7mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6257.874mil|Location2.X=6545.295mil|Location1.Y=1898.622mil|Location2.Y=1959.449mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6257.874mil|Location2.X=6545.295mil|Location1.Y=1898.622mil|Location2.Y=1959.449mil|Absolute=True">Un-Routed Net Constraint: Net +5V Between Pad C6-2(159.45mm,48.925mm) on Top Layer And Pad J1-4(165.438mm,49.37mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6449.803mil|Location2.X=6764.764mil|Location1.Y=1459.646mil|Location2.Y=1515.748mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6449.803mil|Location2.X=6764.764mil|Location1.Y=1459.646mil|Location2.Y=1515.748mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad R8-1(164.175mm,38.2mm) on Top Layer And Pad C7-1(171.325mm,37.775mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6608.11mil|Location2.X=6855.315mil|Location1.Y=1308.898mil|Location2.Y=1514.764mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6608.11mil|Location2.X=6855.315mil|Location1.Y=1308.898mil|Location2.Y=1514.764mil|Absolute=True">Un-Routed Net Constraint: Net NetC4_2 Between Pad S1-1(168.55mm,33.95mm) on Multi-Layer And Pad C7-2(173.625mm,37.775mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6762.795mil|Location2.X=6804.134mil|Location1.Y=2139.764mil|Location2.Y=2212.599mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6762.795mil|Location2.X=6804.134mil|Location1.Y=2139.764mil|Location2.Y=2212.599mil|Absolute=True">Un-Routed Net Constraint: Net NetD1_1 Between Pad D1-1(172.225mm,55.775mm) on Top Layer [Unplated] And Pad R3-2(172.475mm,54.65mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6631.89mil|Location2.X=6735.236mil|Location1.Y=2179.134mil|Location2.Y=2212.599mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6631.89mil|Location2.X=6735.236mil|Location1.Y=2179.134mil|Location2.Y=2212.599mil|Absolute=True">Un-Routed Net Constraint: Net +5V Between Pad D2-2(168.9mm,55.775mm) on Top Layer [Unplated] And Pad D1-2(170.625mm,55.775mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6694.862mil|Location2.X=6758.839mil|Location1.Y=2077.953mil|Location2.Y=2212.599mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6694.862mil|Location2.X=6758.839mil|Location1.Y=2077.953mil|Location2.Y=2212.599mil|Absolute=True">Un-Routed Net Constraint: Net +5V Between Pad D1-2(170.625mm,55.775mm) on Top Layer [Unplated] And Pad J1-8(170.862mm,53.18mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6651.969mil|Location2.X=6735.236mil|Location1.Y=2179.134mil|Location2.Y=2583.661mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6651.969mil|Location2.X=6735.236mil|Location1.Y=2179.134mil|Location2.Y=2583.661mil|Absolute=True">Un-Routed Net Constraint: Net +5V Between Pad J3-2(169.985mm,64.6mm) on Multi-Layer And Pad D1-2(170.625mm,55.775mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6563.976mil|Location2.X=6604.331mil|Location1.Y=2137.795mil|Location2.Y=2212.599mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6563.976mil|Location2.X=6604.331mil|Location1.Y=2137.795mil|Location2.Y=2212.599mil|Absolute=True">Un-Routed Net Constraint: Net NetD2_1 Between Pad R4-2(167.075mm,54.6mm) on Top Layer And Pad D2-1(167.3mm,55.775mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6292.323mil|Location2.X=6476.378mil|Location1.Y=1528.208mil|Location2.Y=1792.323mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6292.323mil|Location2.X=6476.378mil|Location1.Y=1528.208mil|Location2.Y=1792.323mil|Absolute=True">Un-Routed Net Constraint: Net +5V Between Pad D3-1(160.6mm,44.375mm) on Top Layer [Unplated] And Pad R6-2(164.15mm,39.116mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6292.323mil|Location2.X=6606.496mil|Location1.Y=1540.354mil|Location2.Y=1630.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6292.323mil|Location2.X=6606.496mil|Location1.Y=1540.354mil|Location2.Y=1630.906mil|Absolute=True">Un-Routed Net Constraint: Net NetD3_2 Between Pad D3-2(160.6mm,40.275mm) on Top Layer [Unplated] And Pad PS1-8(167.405mm,40.538mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6272.637mil|Location2.X=6433.071mil|Location1.Y=2215.551mil|Location2.Y=2308.071mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6272.637mil|Location2.X=6433.071mil|Location1.Y=2215.551mil|Location2.Y=2308.071mil|Absolute=True">Un-Routed Net Constraint: Net NetIC1_1 Between Pad IC1-1(159.975mm,56.65mm) on Top Layer [Unplated] And Pad Q2-6(162.65mm,58.275mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6215.551mil|Location2.X=6323.819mil|Location1.Y=2123.032mil|Location2.Y=2207.677mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6215.551mil|Location2.X=6323.819mil|Location1.Y=2123.032mil|Location2.Y=2207.677mil|Absolute=True">Un-Routed Net Constraint: Net NetIC1_2 Between Pad R2-2(158.35mm,54.375mm) on Top Layer And Pad IC1-2(159.975mm,55.7mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6272.637mil|Location2.X=6433.071mil|Location1.Y=2140.748mil|Location2.Y=2382.874mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6272.637mil|Location2.X=6433.071mil|Location1.Y=2140.748mil|Location2.Y=2382.874mil|Absolute=True">Un-Routed Net Constraint: Net NetIC1_3 Between Pad IC1-3(159.975mm,54.75mm) on Top Layer [Unplated] And Pad Q2-4(162.65mm,60.175mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6371.063mil|Location2.X=6492.126mil|Location1.Y=2178.15mil|Location2.Y=2259.843mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6371.063mil|Location2.X=6492.126mil|Location1.Y=2178.15mil|Location2.Y=2259.843mil|Absolute=True">Un-Routed Net Constraint: Net NetC3_2 Between Pad IC1-5(162.475mm,55.7mm) on Top Layer [Unplated] And Pad R1-1(164.425mm,56.95mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6283.465mil|Location2.X=6422.244mil|Location1.Y=2215.551mil|Location2.Y=2382.874mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6283.465mil|Location2.X=6422.244mil|Location1.Y=2215.551mil|Location2.Y=2382.874mil|Absolute=True">Un-Routed Net Constraint: Net B- Between Pad Q2-1(160.35mm,60.175mm) on Top Layer [Unplated] And Pad IC1-6(162.475mm,56.65mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6481.319mil|Location2.X=6545.295mil|Location1.Y=1977.953mil|Location2.Y=2109.449mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6481.319mil|Location2.X=6545.295mil|Location1.Y=1977.953mil|Location2.Y=2109.449mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J1-3(165.438mm,50.64mm) on Top Layer [Unplated] And Pad J1-1(165.438mm,53.18mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6437.008mil|Location2.X=6545.295mil|Location1.Y=1982.284mil|Location2.Y=2059.449mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6437.008mil|Location2.X=6545.295mil|Location1.Y=1982.284mil|Location2.Y=2059.449mil|Absolute=True">Un-Routed Net Constraint: Net NetJ1_2 Between Pad R5-2(163.8mm,50.7mm) on Top Layer And Pad J1-2(165.438mm,51.91mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6481.319mil|Location2.X=6671.516mil|Location1.Y=1949.764mil|Location2.Y=2087.638mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6481.319mil|Location2.X=6671.516mil|Location1.Y=1949.764mil|Location2.Y=2087.638mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J1-3(165.438mm,50.64mm) on Top Layer [Unplated] And Pad J1-9(168.15mm,51.275mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6437.008mil|Location2.X=6545.295mil|Location1.Y=1942.914mil|Location2.Y=2009.449mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6437.008mil|Location2.X=6545.295mil|Location1.Y=1942.914mil|Location2.Y=2009.449mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad R5-1(163.8mm,49.7mm) on Top Layer And Pad J1-3(165.438mm,50.64mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6481.319mil|Location2.X=6758.839mil|Location1.Y=1927.953mil|Location2.Y=2109.449mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6481.319mil|Location2.X=6758.839mil|Location1.Y=1927.953mil|Location2.Y=2109.449mil|Absolute=True">Un-Routed Net Constraint: Net +5V Between Pad J1-4(165.438mm,49.37mm) on Top Layer [Unplated] And Pad J1-8(170.862mm,53.18mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6694.862mil|Location2.X=6764.764mil|Location1.Y=1977.953mil|Location2.Y=2163.386mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6694.862mil|Location2.X=6764.764mil|Location1.Y=1977.953mil|Location2.Y=2163.386mil|Absolute=True">Un-Routed Net Constraint: Net NetJ1_6 Between Pad J1-6(170.862mm,50.64mm) on Top Layer [Unplated] And Pad R3-1(171.475mm,54.65mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6603.346mil|Location2.X=6758.839mil|Location1.Y=2027.953mil|Location2.Y=2161.417mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6603.346mil|Location2.X=6758.839mil|Location1.Y=2027.953mil|Location2.Y=2161.417mil|Absolute=True">Un-Routed Net Constraint: Net NetJ1_7 Between Pad R4-1(168.075mm,54.6mm) on Top Layer And Pad J1-7(170.862mm,51.91mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6568.642mil|Location2.X=6832.677mil|Location1.Y=1949.764mil|Location2.Y=2583.661mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6568.642mil|Location2.X=6832.677mil|Location1.Y=1949.764mil|Location2.Y=2583.661mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J1-9(168.15mm,51.275mm) on Top Layer [Unplated] And Pad J3-1(172.525mm,64.6mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6568.642mil|Location2.X=6671.516mil|Location1.Y=1860.236mil|Location2.Y=2087.638mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6568.642mil|Location2.X=6671.516mil|Location1.Y=1860.236mil|Location2.Y=2087.638mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad R7-1(167.85mm,47.55mm) on Top Layer And Pad J1-9(168.15mm,51.275mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6409.449mil|Location2.X=6761.968mil|Location1.Y=1228.15mil|Location2.Y=1364.331mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6409.449mil|Location2.X=6761.968mil|Location1.Y=1228.15mil|Location2.Y=1364.331mil|Absolute=True">Un-Routed Net Constraint: Net VBUS Between Pad J2-1(163.05mm,31.92mm) on Top Layer And Pad S1-2(171.05mm,33.95mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6287.401mil|Location2.X=6360.236mil|Location1.Y=1228.15mil|Location2.Y=1403.543mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6287.401mil|Location2.X=6360.236mil|Location1.Y=1228.15mil|Location2.Y=1403.543mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J2-5(160.45mm,31.92mm) on Top Layer And Pad J2-9(160.625mm,34.6mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6375.984mil|Location2.X=6488.189mil|Location1.Y=1320.866mil|Location2.Y=1403.543mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6375.984mil|Location2.X=6488.189mil|Location1.Y=1320.866mil|Location2.Y=1403.543mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J2-8(162.875mm,34.6mm) on Top Layer And Pad J2-6(164.75mm,33.75mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6248.032mil|Location2.X=6360.236mil|Location1.Y=1320.866mil|Location2.Y=1403.543mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6248.032mil|Location2.X=6360.236mil|Location1.Y=1320.866mil|Location2.Y=1403.543mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J2-7(158.75mm,33.75mm) on Top Layer And Pad J2-9(160.625mm,34.6mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6287.401mil|Location2.X=6448.819mil|Location1.Y=1320.866mil|Location2.Y=1403.543mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6287.401mil|Location2.X=6448.819mil|Location1.Y=1320.866mil|Location2.Y=1403.543mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J2-9(160.625mm,34.6mm) on Top Layer And Pad J2-8(162.875mm,34.6mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6375.984mil|Location2.X=6477.362mil|Location1.Y=1320.866mil|Location2.Y=1515.748mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6375.984mil|Location2.X=6477.362mil|Location1.Y=1320.866mil|Location2.Y=1515.748mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J2-8(162.875mm,34.6mm) on Top Layer And Pad R8-1(164.175mm,38.2mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6283.465mil|Location2.X=6379.968mil|Location1.Y=2355.315mil|Location2.Y=2511.858mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6283.465mil|Location2.X=6379.968mil|Location1.Y=2355.315mil|Location2.Y=2511.858mil|Absolute=True">Un-Routed Net Constraint: Net B- Between Pad Q2-1(160.35mm,60.175mm) on Top Layer [Unplated] And Pad J4-1(161.55mm,63.3mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6291.291mil|Location2.X=6492.126mil|Location1.Y=2169.291mil|Location2.Y=2511.858mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6291.291mil|Location2.X=6492.126mil|Location1.Y=2169.291mil|Location2.Y=2511.858mil|Absolute=True">Un-Routed Net Constraint: Net B+ Between Pad J4-2(160.3mm,63.3mm) on Multi-Layer And Pad R1-2(164.425mm,55.55mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6575mil|Location2.X=6812.992mil|Location1.Y=1563.996mil|Location2.Y=1708.661mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6575mil|Location2.X=6812.992mil|Location1.Y=1563.996mil|Location2.Y=1708.661mil|Absolute=True">Un-Routed Net Constraint: Net NetD3_2 Between Pad PS1-8(167.405mm,40.538mm) on Top Layer [Unplated] And Pad L1-1(172.05mm,42.425mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6475mil|Location2.X=6812.992mil|Location1.Y=1777.54mil|Location2.Y=1879.921mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6475mil|Location2.X=6812.992mil|Location1.Y=1777.54mil|Location2.Y=1879.921mil|Absolute=True">Un-Routed Net Constraint: Net NetC4_2 Between Pad PS1-3(164.865mm,45.962mm) on Top Layer [Unplated] And Pad L1-2(172.05mm,46.775mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6446.811mil|Location2.X=6606.496mil|Location1.Y=1651.319mil|Location2.Y=1841.516mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6446.811mil|Location2.X=6606.496mil|Location1.Y=1651.319mil|Location2.Y=1841.516mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad PS1-9(165.5mm,43.25mm) on Top Layer [Unplated] And Pad PS1-1(167.405mm,45.962mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6575mil|Location2.X=6622.047mil|Location1.Y=1777.54mil|Location2.Y=1883.858mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6575mil|Location2.X=6622.047mil|Location1.Y=1777.54mil|Location2.Y=1883.858mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad PS1-1(167.405mm,45.962mm) on Top Layer [Unplated] And Pad R7-1(167.85mm,47.55mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6525mil|Location2.X=6582.677mil|Location1.Y=1777.54mil|Location2.Y=1883.858mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6525mil|Location2.X=6582.677mil|Location1.Y=1777.54mil|Location2.Y=1883.858mil|Absolute=True">Un-Routed Net Constraint: Net NetPS1_2 Between Pad PS1-2(166.135mm,45.962mm) on Top Layer [Unplated] And Pad R7-2(166.85mm,47.55mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6425mil|Location2.X=6506.496mil|Location1.Y=1777.54mil|Location2.Y=1841.516mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6425mil|Location2.X=6506.496mil|Location1.Y=1777.54mil|Location2.Y=1841.516mil|Absolute=True">Un-Routed Net Constraint: Net NetC4_2 Between Pad PS1-4(163.595mm,45.962mm) on Top Layer [Unplated] And Pad PS1-3(164.865mm,45.962mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6425mil|Location2.X=6584.685mil|Location1.Y=1563.996mil|Location2.Y=1754.193mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6425mil|Location2.X=6584.685mil|Location1.Y=1563.996mil|Location2.Y=1754.193mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad PS1-5(163.595mm,40.538mm) on Top Layer [Unplated] And Pad PS1-9(165.5mm,43.25mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6425mil|Location2.X=6477.362mil|Location1.Y=1492.126mil|Location2.Y=1627.973mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6425mil|Location2.X=6477.362mil|Location1.Y=1492.126mil|Location2.Y=1627.973mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad PS1-5(163.595mm,40.538mm) on Top Layer [Unplated] And Pad R8-1(164.175mm,38.2mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6475mil|Location2.X=6515.748mil|Location1.Y=1528.208mil|Location2.Y=1627.973mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6475mil|Location2.X=6515.748mil|Location1.Y=1528.208mil|Location2.Y=1627.973mil|Absolute=True">Un-Routed Net Constraint: Net NetPS1_6 Between Pad PS1-6(164.865mm,40.538mm) on Top Layer [Unplated] And Pad R6-1(165.15mm,39.116mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6283.465mil|Location2.X=6625mil|Location1.Y=2355.315mil|Location2.Y=2384.843mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6283.465mil|Location2.X=6625mil|Location1.Y=2355.315mil|Location2.Y=2384.843mil|Absolute=True">Un-Routed Net Constraint: Net B- Between Pad Q2-1(160.35mm,60.175mm) on Top Layer [Unplated] And Pad Q1-1(167.525mm,60.225mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6565.945mil|Location2.X=6715.551mil|Location1.Y=2319.882mil|Location2.Y=2347.441mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6565.945mil|Location2.X=6715.551mil|Location1.Y=2319.882mil|Location2.Y=2347.441mil|Absolute=True">Un-Routed Net Constraint: Net NetQ1_2 Between Pad Q1-2(167.525mm,59.275mm) on Top Layer [Unplated] And Pad Q1-5(169.825mm,59.275mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6283.465mil|Location2.X=6625mil|Location1.Y=2280.512mil|Location2.Y=2310.039mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6283.465mil|Location2.X=6625mil|Location1.Y=2280.512mil|Location2.Y=2310.039mil|Absolute=True">Un-Routed Net Constraint: Net NetQ1_3 Between Pad Q2-3(160.35mm,58.275mm) on Top Layer [Unplated] And Pad Q1-3(167.525mm,58.325mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6374.016mil|Location2.X=6715.551mil|Location1.Y=2355.315mil|Location2.Y=2384.843mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6374.016mil|Location2.X=6715.551mil|Location1.Y=2355.315mil|Location2.Y=2384.843mil|Absolute=True">Un-Routed Net Constraint: Net NetIC1_3 Between Pad Q2-4(162.65mm,60.175mm) on Top Layer [Unplated] And Pad Q1-4(169.825mm,60.225mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6374.016mil|Location2.X=6715.551mil|Location1.Y=2280.512mil|Location2.Y=2310.039mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6374.016mil|Location2.X=6715.551mil|Location1.Y=2280.512mil|Location2.Y=2310.039mil|Absolute=True">Un-Routed Net Constraint: Net NetIC1_1 Between Pad Q2-6(162.65mm,58.275mm) on Top Layer [Unplated] And Pad Q1-6(169.825mm,58.325mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6283.465mil|Location2.X=6433.071mil|Location1.Y=2317.913mil|Location2.Y=2345.472mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6283.465mil|Location2.X=6433.071mil|Location1.Y=2317.913mil|Location2.Y=2345.472mil|Absolute=True">Un-Routed Net Constraint: Net NetQ2_2 Between Pad Q2-2(160.35mm,59.225mm) on Top Layer [Unplated] And Pad Q2-5(162.65mm,59.225mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6215.551mil|Location2.X=6342.52mil|Location1.Y=2178.15mil|Location2.Y=2308.071mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6215.551mil|Location2.X=6342.52mil|Location1.Y=2178.15mil|Location2.Y=2308.071mil|Absolute=True">Un-Routed Net Constraint: Net NetQ1_3 Between Pad R2-1(158.35mm,55.775mm) on Top Layer And Pad Q2-3(160.35mm,58.275mm) on Top Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6488.189mil|Location2.X=6516.732mil|Location1.Y=1492.126mil|Location2.Y=1551.831mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6488.189mil|Location2.X=6516.732mil|Location1.Y=1492.126mil|Location2.Y=1551.831mil|Absolute=True">Un-Routed Net Constraint: Net NetPS1_6 Between Pad R6-1(165.15mm,39.116mm) on Top Layer And Pad R8-2(165.175mm,38.2mm) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDEABDRUVGLERQI0YL0PKUNMR25DJG1XP5HCNKU1CNY0CRA0GRZPM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.05mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6606.131mil|Location2.X=6608.443mil|Location1.Y=1831.197mil|Location2.Y=1833.509mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6606.131mil|Location2.X=6608.443mil|Location1.Y=1831.197mil|Location2.Y=1833.509mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.05mm) Between Pad PS1-1(167.405mm,45.962mm) on Top Layer And Text "L1" (168.325mm,46.542mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDNQNRYMOWKCIJNKBTA4ZDRZPC3NPDLKA4FF0CDILQTSW5M2DTYVLI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.05mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6617.151mil|Location2.X=6619.463mil|Location1.Y=1831.197mil|Location2.Y=1833.509mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\slimb\Desktop\projects\TIDA-010074 CAD\LT-CHARGE+\LT-CHARGE+\LT-CHARGE+.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6617.151mil|Location2.X=6619.463mil|Location1.Y=1831.197mil|Location2.Y=1833.509mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.05mm) Between Text "L1" (168.325mm,46.542mm) on Top Overlay And Track (168.105mm,45.2mm)(168.105mm,46.725mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
