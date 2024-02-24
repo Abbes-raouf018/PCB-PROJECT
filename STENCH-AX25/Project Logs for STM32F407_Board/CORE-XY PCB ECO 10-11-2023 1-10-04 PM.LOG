@@ -1,0 +1,428 @@
+Removed Pin From Net: NetName=GND Pin=C61-1
+Removed Pin From Net: NetName=GND Pin=C62-1
+Removed Pin From Net: NetName=GND Pin=C63-1
+Removed Pin From Net: NetName=GND Pin=C64-1
+Removed Pin From Net: NetName=3v3 Pin=R59-1
+Removed Pin From Net: NetName=IN1 Pin=R59-2
+Removed Pin From Net: NetName=3v3 Pin=R60-1
+Removed Pin From Net: NetName=IN3 Pin=R60-2
+Removed Pin From Net: NetName=3v3 Pin=R63-1
+Removed Pin From Net: NetName=IN2 Pin=R63-2
+Removed Pin From Net: NetName=3v3 Pin=R65-1
+Removed Pin From Net: NetName=IN3 Pin=R65-2
+Removed Pin From Net: NetName=IN3 Pin=U9-4
+Removed Pin From Net: NetName=IN1 Pin=U10-4
+Removed Pin From Net: NetName=IN2 Pin=U11-4
+Removed Pin From Net: NetName=GND Pin=U12-3
+Removed Pin From Net: NetName=IN3 Pin=U12-4
+Removed Member From Class: ClassName=DIGILATL OUTPUT Member=C61
+Removed Member From Class: ClassName=DIGILATL OUTPUT Member=C62
+Removed Member From Class: ClassName=DIGILATL OUTPUT Member=C63
+Removed Member From Class: ClassName=DIGILATL OUTPUT Member=C64
+Removed Member From Class: ClassName=ESP32 Member=D14
+Removed Member From Class: ClassName=DIGILATL OUTPUT Member=U12
+Change Component Footprint: Designator=U9 Old Footprint=TL-OTOCOLOR New Footprint=OPTO
+Change Component Footprint: Designator=U10 Old Footprint=TL-OTOCOLOR New Footprint=OPTO
+Change Component Footprint: Designator=U11 Old Footprint=TL-OTOCOLOR New Footprint=OPTO
+Change Component Comment : Designator=R61 Old Comment=1K New Comment=10K
+Change Component Comment : Designator=R60 Old Comment=10K New Comment=1K
+Change Component Comment : Designator=U9 Old Comment=TLP185 New Comment=OPTO
+Change Component Comment : Designator=U10 Old Comment=TLP185 New Comment=OPTO
+Change Component Comment : Designator=U11 Old Comment=TLP185 New Comment=OPTO
+Change component parameters: Designator = "R60" ("R60"); Footprint = "0603L"; UniqueID = "\BCWCCKLA" ("\BCWCCKLA")
+Change component parameters (AddParameter): Name = "Digi-Key Part Number"; Value = "1276-3484-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "RC1608F102CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "J1-0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R61" ("R61"); Footprint = "0603L"; UniqueID = "\JMEIQPVD" ("\JMEIQPVD")
+Change component parameters (AddParameter): Name = "Digi-Key Part Number"; Value = "1276-3485-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "RC1608F103CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R64" ("R64"); Footprint = "0603L"; UniqueID = "\WAWBNVSZ" ("\WAWBNVSZ")
+Change component parameters (AddParameter): Name = "Digi-Key Part Number"; Value = "1276-3484-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "RC1608F102CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Resistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "J1-0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U9" ("U9"); Footprint = "TL-OTOCOLOR"; UniqueID = "\RERQJQUU" ("\RERQJQUU")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TCMT1100/Vishay%20Semiconductor%20Opto%20Division/view-part/286066/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "TCMT1100CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DigiKey-Purchase-URL"; Value = "https://snapeda.com/shop?store=DigiKey&id=286066"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Vishay Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser-Purchase-URL"; Value = "https://snapeda.com/shop?store=Mouser&id=286066"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "TCMT1100"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOP-4 Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TCMT1100/Vishay%20Semiconductor%20Opto%20Division/view-part/286066/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "U10" ("U10"); Footprint = "TL-OTOCOLOR"; UniqueID = "\BNWETVRN" ("\BNWETVRN")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TCMT1100/Vishay%20Semiconductor%20Opto%20Division/view-part/286066/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "TCMT1100CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DigiKey-Purchase-URL"; Value = "https://snapeda.com/shop?store=DigiKey&id=286066"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Vishay Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser-Purchase-URL"; Value = "https://snapeda.com/shop?store=Mouser&id=286066"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "TCMT1100"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOP-4 Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TCMT1100/Vishay%20Semiconductor%20Opto%20Division/view-part/286066/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "U11" ("U11"); Footprint = "TL-OTOCOLOR"; UniqueID = "\BIGGEMVF" ("\BIGGEMVF")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TCMT1100/Vishay%20Semiconductor%20Opto%20Division/view-part/286066/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "TCMT1100CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DigiKey-Purchase-URL"; Value = "https://snapeda.com/shop?store=DigiKey&id=286066"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Vishay Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser-Purchase-URL"; Value = "https://snapeda.com/shop?store=Mouser&id=286066"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "TCMT1100"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOP-4 Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TCMT1100/Vishay%20Semiconductor%20Opto%20Division/view-part/286066/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found B3U-3000P
+Add Component: Footprint Not Found ACAP_P305_D393_H393_RAD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 1210
+Add Component: Footprint Not Found Cap 1210
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found LED_4Pin_4213_RA_3215
+Add Component: Footprint Not Found LED_0606_RGB_WURTH
+Add Component: Footprint Not Found SOT23
+Add Component: Footprint Not Found SOT23
+Added Component: Designator=D15(DRIVER-LED)
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.onsemi.com/pub/Collateral/NSI50010Y-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "1.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NSI50010YT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "863-NSI50010YT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/onsemi/NSI50010YT1G?qs=dubiLKbpNDpeXNVeIAV4bg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=D16(LED0201AMB)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "Kingbright"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "APG0603SEC-TT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "20mA, 605nm, 140° Angle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = "2V, -40~85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = "0.5$"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "LED201AMB"; VariantName = "[No Variations]"
+Added Component: Designator=D17(DRIVER-LED)
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.onsemi.com/pub/Collateral/NSI50010Y-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "1.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NSI50010YT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "863-NSI50010YT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/onsemi/NSI50010YT1G?qs=dubiLKbpNDpeXNVeIAV4bg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=D18(LED0201AMB)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "Kingbright"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "APG0603SEC-TT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "20mA, 605nm, 140° Angle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = "2V, -40~85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = "0.5$"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "LED201AMB"; VariantName = "[No Variations]"
+Added Component: Designator=D19(DRIVER-LED)
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.onsemi.com/pub/Collateral/NSI50010Y-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "1.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NSI50010YT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "863-NSI50010YT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/onsemi/NSI50010YT1G?qs=dubiLKbpNDpeXNVeIAV4bg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=D20(LED0201AMB)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "Kingbright"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "APG0603SEC-TT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "20mA, 605nm, 140° Angle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = "2V, -40~85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = "0.5$"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "LED201AMB"; VariantName = "[No Variations]"
+Added Component: Designator=D21(DRIVER-LED)
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.onsemi.com/pub/Collateral/NSI50010Y-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "1.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NSI50010YT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "863-NSI50010YT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/onsemi/NSI50010YT1G?qs=dubiLKbpNDpeXNVeIAV4bg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=D22(LED0201AMB)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "Kingbright"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "APG0603SEC-TT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "20mA, 605nm, 140° Angle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = "2V, -40~85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = "0.5$"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "LED201AMB"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found Fuse 1206
+Add Component: Footprint Not Found LMZ20501SILR_DC-DC_8-SMD
+Add Component: Footprint Not Found TE 282834-3
+Add Component: Footprint Not Found HDR-0.1P-3Pin-1Row-SMT
+Added Component: Designator=J21(MSTB_5)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DIST#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "CONN_TB5"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found MH_7.4MMC_3.2MMD
+Add Component: Footprint Not Found MH_7.4MMC_3.2MMD
+Add Component: Footprint Not Found MH_7.4MMC_3.2MMD
+Add Component: Footprint Not Found MH_7.4MM_3.2MMD_NON_COPPER_NPTH
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0201 HD
+Add Component: Footprint Not Found EG1224
+Add Component: Footprint Not Found TP_PAD_1p5MM
+Add Component: Footprint Not Found E22-900M22S
+Added Component: Designator=U(OPTO)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TCMT1100/Vishay%20Semiconductor%20Opto%20Division/view-part/286066/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "TCMT1100CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DigiKey-Purchase-URL"; Value = "https://snapeda.com/shop?store=DigiKey&id=286066"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Vishay Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser-Purchase-URL"; Value = "https://snapeda.com/shop?store=Mouser&id=286066"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TCMT1100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOP-4 Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TCMT1100/Vishay%20Semiconductor%20Opto%20Division/view-part/286066/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin BTN?-1
+Add Pin To Net: Unknown Pin: Pin BTN?-2
+Add Pin To Net: Unknown Pin: Pin C20-1
+Add Pin To Net: Unknown Pin: Pin C20-2
+Add Pin To Net: Unknown Pin: Pin C48-1
+Add Pin To Net: Unknown Pin: Pin C48-2
+Add Pin To Net: Unknown Pin: Pin C49-1
+Add Pin To Net: Unknown Pin: Pin C49-2
+Add Pin To Net: Unknown Pin: Pin C50-1
+Add Pin To Net: Unknown Pin: Pin C50-2
+Add Pin To Net: Unknown Pin: Pin C51-1
+Add Pin To Net: Unknown Pin: Pin C51-2
+Add Pin To Net: Unknown Pin: Pin C52-1
+Add Pin To Net: Unknown Pin: Pin C52-2
+Add Pin To Net: Unknown Pin: Pin C53-1
+Add Pin To Net: Unknown Pin: Pin C53-2
+Add Pin To Net: Unknown Pin: Pin C54-1
+Add Pin To Net: Unknown Pin: Pin C54-2
+Add Pin To Net: Unknown Pin: Pin C55-1
+Add Pin To Net: Unknown Pin: Pin C55-2
+Add Pin To Net: Unknown Pin: Pin C56-1
+Add Pin To Net: Unknown Pin: Pin C56-2
+Add Pin To Net: Unknown Pin: Pin C57-1
+Add Pin To Net: Unknown Pin: Pin C57-2
+Add Pin To Net: Unknown Pin: Pin C58-1
+Add Pin To Net: Unknown Pin: Pin C58-2
+Add Pin To Net: Unknown Pin: Pin C59-1
+Add Pin To Net: Unknown Pin: Pin C59-2
+Add Pin To Net: Unknown Pin: Pin C60-1
+Add Pin To Net: Unknown Pin: Pin C60-2
+Add Pin To Net: Unknown Pin: Pin D7-1
+Add Pin To Net: Unknown Pin: Pin D7-2
+Add Pin To Net: Unknown Pin: Pin D7-3
+Add Pin To Net: Unknown Pin: Pin D10-A
+Add Pin To Net: Unknown Pin: Pin D10-BK
+Add Pin To Net: Unknown Pin: Pin D10-GK
+Add Pin To Net: Unknown Pin: Pin D10-RK
+Add Pin To Net: Unknown Pin: Pin D11-1
+Add Pin To Net: Unknown Pin: Pin D11-2
+Add Pin To Net: Unknown Pin: Pin D11-3
+Add Pin To Net: Unknown Pin: Pin D13-1
+Add Pin To Net: Unknown Pin: Pin D13-2
+Add Pin To Net: Unknown Pin: Pin D13-3
+Add Pin To Net: Unknown Pin: Pin F1-1
+Add Pin To Net: Unknown Pin: Pin F1-2
+Add Pin To Net: Unknown Pin: Pin IC2-2
+Add Pin To Net: Unknown Pin: Pin IC2-3
+Add Pin To Net: Unknown Pin: Pin IC2-4
+Add Pin To Net: Unknown Pin: Pin IC2-5
+Add Pin To Net: Unknown Pin: Pin IC2-6
+Add Pin To Net: Unknown Pin: Pin IC2-8
+Add Pin To Net: Unknown Pin: Pin IC2-PAD
+Add Pin To Net: Unknown Pin: Pin J4-1
+Add Pin To Net: Unknown Pin: Pin J4-2
+Add Pin To Net: Unknown Pin: Pin J4-3
+Add Pin To Net: Unknown Pin: Pin J8-1
+Add Pin To Net: Unknown Pin: Pin J8-2
+Add Pin To Net: Unknown Pin: Pin J8-3
+Added Pin To Net: NetName=GND Pin=J21-1
+Added Pin To Net: NetName=IN3 Pin=J21-3
+Added Pin To Net: NetName=IN2 Pin=J21-4
+Added Pin To Net: NetName=IN1 Pin=J21-5
+Add Pin To Net: Unknown Pin: Pin MH1-1
+Add Pin To Net: Unknown Pin: Pin MH2-1
+Add Pin To Net: Unknown Pin: Pin R49-1
+Add Pin To Net: Unknown Pin: Pin R49-2
+Add Pin To Net: Unknown Pin: Pin R50-1
+Add Pin To Net: Unknown Pin: Pin R50-2
+Add Pin To Net: Unknown Pin: Pin R51-1
+Add Pin To Net: Unknown Pin: Pin R51-2
+Add Pin To Net: Unknown Pin: Pin R52-1
+Add Pin To Net: Unknown Pin: Pin R52-2
+Add Pin To Net: Unknown Pin: Pin R53-1
+Add Pin To Net: Unknown Pin: Pin R53-2
+Add Pin To Net: Unknown Pin: Pin R54-1
+Add Pin To Net: Unknown Pin: Pin R54-2
+Add Pin To Net: Unknown Pin: Pin R55-1
+Add Pin To Net: Unknown Pin: Pin R55-2
+Add Pin To Net: Unknown Pin: Pin R56-1
+Add Pin To Net: Unknown Pin: Pin R56-2
+Add Pin To Net: Unknown Pin: Pin R57-1
+Add Pin To Net: Unknown Pin: Pin R57-2
+Add Pin To Net: Unknown Pin: Pin R58-1
+Add Pin To Net: Unknown Pin: Pin R58-2
+Added Pin To Net: NetName=3.3V Pin=R59-1
+Added Pin To Net: NetName=IN1 Pin=R60-2
+Added Pin To Net: NetName=3.3V Pin=R61-1
+Added Pin To Net: NetName=IN2 Pin=R62-2
+Added Pin To Net: NetName=3.3V Pin=R63-1
+Added Pin To Net: NetName=IN3 Pin=R64-2
+Added Pin To Net: NetName=3.3V Pin=R65-1
+Add Pin To Net: Unknown Pin: Pin RT1-1
+Add Pin To Net: Unknown Pin: Pin RT1-2
+Add Pin To Net: Unknown Pin: Pin SW1-1
+Add Pin To Net: Unknown Pin: Pin SW1-2
+Add Pin To Net: Unknown Pin: Pin SW1-4
+Add Pin To Net: Unknown Pin: Pin TP1-1
+Added Pin To Net: NetName=GND Pin=U9-2
+Added Pin To Net: NetName=GND Pin=U10-2
+Added Pin To Net: NetName=GND Pin=U11-2
+Add Pin To Net: Unknown Pin: Pin U13-15
+Add Pin To Net: Unknown Pin: Pin U13-16
+Add Pin To Net: Unknown Pin: Pin U18-1
+Add Pin To Net: Unknown Pin: Pin U18-2
+Add Pin To Net: Unknown Pin: Pin U18-3
+Add Pin To Net: Unknown Pin: Pin U18-4
+Add Pin To Net: Unknown Pin: Pin U18-5
+Add Pin To Net: Unknown Pin: Pin U18-6
+Add Pin To Net: Unknown Pin: Pin U18-7
+Add Pin To Net: Unknown Pin: Pin U18-8
+Add Pin To Net: Unknown Pin: Pin U18-9
+Add Pin To Net: Unknown Pin: Pin U18-10
+Add Pin To Net: Unknown Pin: Pin U18-11
+Add Pin To Net: Unknown Pin: Pin U18-12
+Add Pin To Net: Unknown Pin: Pin U18-14
+Add Pin To Net: Unknown Pin: Pin U18-15
+Add Pin To Net: Unknown Pin: Pin U18-16
+Add Pin To Net: Unknown Pin: Pin U18-17
+Add Pin To Net: Unknown Pin: Pin U18-18
+Add Pin To Net: Unknown Pin: Pin U18-19
+Add Pin To Net: Unknown Pin: Pin U18-20
+Add Pin To Net: Unknown Pin: Pin U18-22
+Added Pin To Net: NetName=GND Pin=U-2
+Added Pin To Net: NetName=GND Pin=U-3
+Added Pin To Net: NetName=DIN1 Pin=R59-2
+Added Pin To Net: NetName=DIN1 Pin=U-4
+Added Net: Name=DIN1
+Added Pin To Net: NetName=DIN2 Pin=R61-2
+Added Pin To Net: NetName=DIN2 Pin=U9-4
+Added Net: Name=DIN2
+Added Pin To Net: NetName=DIN3 Pin=R63-2
+Added Pin To Net: NetName=DIN3 Pin=U10-4
+Added Net: Name=DIN3
+Added Pin To Net: NetName=DIN4 Pin=R65-2
+Added Pin To Net: NetName=DIN4 Pin=U11-4
+Added Net: Name=DIN4
+Added Pin To Net: NetName=IN4 Pin=J21-2
+Added Pin To Net: NetName=IN4 Pin=R66-2
+Added Net: Name=IN4
+Added Pin To Net: NetName=NetD15_1 Pin=D15-1
+Added Pin To Net: NetName=NetD15_1 Pin=D16-1
+Added Net: Name=NetD15_1
+Added Pin To Net: NetName=NetD16_2 Pin=D16-2
+Added Pin To Net: NetName=NetD16_2 Pin=U-1
+Added Net: Name=NetD16_2
+Added Pin To Net: NetName=NetD17_1 Pin=D17-1
+Added Pin To Net: NetName=NetD17_1 Pin=D18-1
+Added Net: Name=NetD17_1
+Added Pin To Net: NetName=NetD18_2 Pin=D18-2
+Added Pin To Net: NetName=NetD18_2 Pin=U9-1
+Added Net: Name=NetD18_2
+Added Pin To Net: NetName=NetD19_1 Pin=D19-1
+Added Pin To Net: NetName=NetD19_1 Pin=D20-1
+Added Net: Name=NetD19_1
+Added Pin To Net: NetName=NetD20_2 Pin=D20-2
+Added Pin To Net: NetName=NetD20_2 Pin=U10-1
+Added Net: Name=NetD20_2
+Added Pin To Net: NetName=NetD21_1 Pin=D21-1
+Added Pin To Net: NetName=NetD21_1 Pin=D22-1
+Added Net: Name=NetD21_1
+Added Pin To Net: NetName=NetD22_2 Pin=D22-2
+Added Pin To Net: NetName=NetD22_2 Pin=U11-1
+Added Net: Name=NetD22_2
+Add Differential Pair: Number of nets in differential pair NetIC4_5 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetIC4_6 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetU16_25 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetU16_26 is 1 instead of 2
+Add Class Member: Failed to add class member : Component BTN? 135-00006
+Add Class Member: Failed to add class member : Component C20 100uF
+Add Class Member: Failed to add class member : Component C48 120-000720.47uF
+Add Class Member: Failed to add class member : Component C49 120-000204.7uF
+Add Class Member: Failed to add class member : Component C50 120-000204.7uF
+Add Class Member: Failed to add class member : Component C51 120-000204.7uF
+Add Class Member: Failed to add class member : Component C52 120-0004768pF
+Add Class Member: Failed to add class member : Component C53 120-0004768pF
+Add Class Member: Failed to add class member : Component C54 120-00223100µF
+Add Class Member: Failed to add class member : Component C55 120-00223100µF
+Add Class Member: Failed to add class member : Component C56 120-000204.7uF
+Add Class Member: Failed to add class member : Component C57 120-0004118pF
+Add Class Member: Failed to add class member : Component C58 120-000160.1uF
+Add Class Member: Failed to add class member : Component C59 120-0004768pF
+Add Class Member: Failed to add class member : Component C60 120-000720.47uF
+Add Class Member: Failed to add class member : Component D7 115-00013
+Add Class Member: Failed to add class member : Component D10 RGB
+Add Class Member: Failed to add class member : Component D11 BAV199
+Add Class Member: Failed to add class member : Component D13 BAV199
+Added Member To Class: ClassName=DIGILATL OUTPUT Member=Component D15 NSI50010YT1G
+Added Member To Class: ClassName=DIGILATL OUTPUT Member=Component D16 LED201AMB
+Added Member To Class: ClassName=DIGILATL OUTPUT Member=Component D17 NSI50010YT1G
+Added Member To Class: ClassName=DIGILATL OUTPUT Member=Component D18 LED201AMB
+Added Member To Class: ClassName=DIGILATL OUTPUT Member=Component D19 NSI50010YT1G
+Added Member To Class: ClassName=DIGILATL OUTPUT Member=Component D20 LED201AMB
+Added Member To Class: ClassName=DIGILATL OUTPUT Member=Component D21 NSI50010YT1G
+Added Member To Class: ClassName=DIGILATL OUTPUT Member=Component D22 LED201AMB
+Add Class Member: Failed to add class member : Component F1 190-00005
+Add Class Member: Failed to add class member : Component IC2 LMZ20501SILR
+Add Class Member: Failed to add class member : Component J4 282834-3
+Add Class Member: Failed to add class member : Component J8 130-00105
+Added Member To Class: ClassName=DIGILATL OUTPUT Member=Component J21 CONN_TB5
+Add Class Member: Failed to add class member : Component MH1 MH_7.4MMC_3.2MMD
+Add Class Member: Failed to add class member : Component MH2 MH_7.4MMC_3.2MMD
+Add Class Member: Failed to add class member : Component MH3 MH_7.4MMC_3.2MMD
+Add Class Member: Failed to add class member : Component MH4 MH_7.4MMNC_3.2MMD
+Add Class Member: Failed to add class member : Component R49 180-000541M
+Add Class Member: Failed to add class member : Component R50 180-0002410k
+Add Class Member: Failed to add class member : Component R51 180-0002410k
+Add Class Member: Failed to add class member : Component R52 180-000211k
+Add Class Member: Failed to add class member : Component R53 180-00093100K
+Add Class Member: Failed to add class member : Component R54 180-000211k
+Add Class Member: Failed to add class member : Component R55 180-0002410k
+Add Class Member: Failed to add class member : Component R56 180-00031499R
+Add Class Member: Failed to add class member : Component R57 180-00098220R
+Add Class Member: Failed to add class member : Component R58 180-000541M
+Add Class Member: Failed to add class member : Component RT1 Res Thermal
+Add Class Member: Failed to add class member : Component SW1 137-00002
+Add Class Member: Failed to add class member : Component TP1 TESTPOINT_PAD
+Add Class Member: Failed to add class member : Component U18 E22-900M22S
+Added Member To Class: ClassName=DIGILATL OUTPUT Member=Component U OPTO

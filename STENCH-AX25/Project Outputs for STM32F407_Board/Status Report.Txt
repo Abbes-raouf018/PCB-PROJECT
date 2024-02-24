@@ -1,0 +1,10 @@
+Output: EDIF for PCB
+Type  : EDIF
+From  : Project [STM32F407_Board.PrjPcb]
+   Generated File[[10]-POWER.EDF]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 7:32:10 PM On 8/29/2023
