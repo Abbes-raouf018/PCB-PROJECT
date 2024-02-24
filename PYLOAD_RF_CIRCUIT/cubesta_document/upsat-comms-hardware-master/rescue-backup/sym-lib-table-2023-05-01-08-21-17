@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name upsat-comms-hardware-rescue)(type Legacy)(uri ${KIPRJMOD}/upsat-comms-hardware-rescue.lib)(options "")(descr ""))
+)

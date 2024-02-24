@@ -1,0 +1,35 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  Z1044-B.brd*
+G04 Film Name:    outline*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro 16.6-S019*
+G04 Origin Date:  Fri Nov 18 12:25:08 2016*
+G04 *
+G04 Layer:  BOARD GEOMETRY/SILKSCREEN_TOP*
+G04 Layer:  DRAWING FORMAT/OUTLINE*
+G04 Layer:  BOARD GEOMETRY/CUT_MARKS*
+G04 Layer:  BOARD GEOMETRY/DIMENSION*
+G04 Layer:  BOARD GEOMETRY/OUTLINE*
+G04 *
+G04 Offset:    (0.000 0.000)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     0.020*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSLAX25Y25*MOIN*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD10C,.000787*%
+G75*
+%LPD*%
+G75*
+G54D10*
+G01X-45276Y-156693D02*
+X115744D01*
+X115748Y-156689D01*
+Y151772D01*
+X-45276D01*
+Y135630D01*
+Y-156693D01*
+M02*
