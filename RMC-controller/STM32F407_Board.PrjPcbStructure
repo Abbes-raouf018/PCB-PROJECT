@@ -1,0 +1,17 @@
+Record=TopLevelDocument|FileName=[1]-Schematics Blocks.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=[2]-Power Budget.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=[4]-Ethernet_PHY.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=[6]-CH340C.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=[7]-ADC CHIP.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=[10]-POWER.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=[11]-Motor Driver_DRV8701_2.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=DAC4-20mA-ADC-0-10V.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=DIGILATL INPUT.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=DIGITAL-OUTPUT.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=ESP32.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=GNSS-receiver.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=INTERFACE-COMMUNICATION.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=LORA-MODULE.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=MCU-STM32F767.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=MEMMORY.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1]-Schematics Blocks.SchDoc|FileName=sensors.SchDoc|SheetNumber= 

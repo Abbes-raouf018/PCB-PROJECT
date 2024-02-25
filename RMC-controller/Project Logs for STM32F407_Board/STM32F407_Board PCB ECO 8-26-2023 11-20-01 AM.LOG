@@ -1,0 +1,1160 @@
+Removed Member From Class: ClassName=GNSS-receiver Member=C75
+Removed Member From Class: ClassName=GNSS-receiver Member=C76
+Removed Member From Class: ClassName=GNSS-receiver Member=C77
+Removed Member From Class: ClassName=GNSS-receiver Member=C78
+Removed Member From Class: ClassName=GNSS-receiver Member=C79
+Removed Member From Class: ClassName=GNSS-receiver Member=C80
+Removed Member From Class: ClassName=GNSS-receiver Member=C81
+Removed Member From Class: ClassName=sensors Member=C82
+Removed Member From Class: ClassName=[10]-POWER Member=J10
+Removed Member From Class: ClassName=GNSS-receiver Member=J12
+Removed Member From Class: ClassName=GNSS-receiver Member=R7
+Removed Member From Class: ClassName=GNSS-receiver Member=R25
+Removed Member From Class: ClassName=GNSS-receiver Member=R27
+Removed Member From Class: ClassName=GNSS-receiver Member=R29
+Removed Member From Class: ClassName=GNSS-receiver Member=R31
+Removed Member From Class: ClassName=GNSS-receiver Member=R33
+Removed Member From Class: ClassName=GNSS-receiver Member=R35
+Removed Member From Class: ClassName=[8]-DAC & MIC Member=U4
+Removed Member From Class: ClassName=[9]-STM32F407 Member=U6
+Removed Member From Class: ClassName=sensors Member=U10
+Removed Member From Class: ClassName=50OHM SINGLE-ENDED Member=NetR7_2
+Added Component: Designator=A1(0479480001)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "WM4893CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "538-47948-0001"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found B3U-3000P
+Add Component: Footprint Not Found CAP0402
+Add Component: Footprint Not Found CAP0603
+Add Component: Footprint Not Found CAP0402
+Add Component: Footprint Not Found CAP0402
+Add Component: Footprint Not Found CAP0402
+Add Component: Footprint Not Found CAP0402
+Add Component: Footprint Not Found CAP0402
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 1210
+Add Component: Footprint Not Found Cap 1210
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found Cap 0402 HD
+Add Component: Footprint Not Found c0603
+Add Component: Footprint Not Found c0603
+Add Component: Footprint Not Found c0603
+Add Component: Footprint Not Found c0603
+Add Component: Footprint Not Found c0603
+Add Component: Footprint Not Found c0603
+Add Component: Footprint Not Found c0603
+Add Component: Footprint Not Found c0603
+Add Component: Footprint Not Found c0603
+Add Component: Footprint Not Found C0603
+Add Component: Footprint Not Found C0603
+Add Component: Footprint Not Found CAP0402
+Add Component: Footprint Not Found CAP0603
+Add Component: Footprint Not Found CAP0402
+Added Component: Designator=C132(C0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "EIA Code"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max. Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "??nF"; VariantName = "[No Variations]"
+Added Component: Designator=C133(C0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "EIA Code"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max. Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "??nF"; VariantName = "[No Variations]"
+Added Component: Designator=C134(C0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "EIA Code"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max. Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1276-1450-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C135(C0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "EIA Code"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max. Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1336-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C136(C0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "EIA Code"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max. Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1336-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C137(C0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "EIA Code"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max. Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1276-1450-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C138(C0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "EIA Code"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max. Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1336-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C139(C0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "EIA Code"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max. Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1276-1450-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C140(C0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "EIA Code"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max. Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1336-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C141(C0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "EIA Code"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max. Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1336-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C142(C0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "EIA Code"; Value = "C0G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max. Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-5926-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "15pF"; VariantName = "[No Variations]"
+Added Component: Designator=C143(C0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "EIA Code"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max. Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1336-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C144(C0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "EIA Code"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max. Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1276-1450-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C145(C0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "EIA Code"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max. Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1276-1450-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found LED_4Pin_4213_RA_3215
+Added Component: Designator=D12(LED0603-IPC)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-4981-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=D13(LED0603-IPC)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-4981-1-ND"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found LED_0606_RGB_WURTH
+Add Component: Footprint Not Found DIO_LXES11D_SMD
+Add Component: Footprint Not Found DIO_LXES11D_SMD
+Add Component: Footprint Not Found ESD8472_X3DFN2
+Add Component: Footprint Not Found Fuse 1206
+Add Component: Footprint Not Found RES0805
+Add Component: Footprint Not Found RES0805
+Add Component: Footprint Not Found NEO-7M/8M
+Add Component: Footprint Not Found M25P40-VMN6TPB_SO8N
+Add Component: Footprint Not Found HDR_1x2
+Add Component: Footprint Not Found SMA_connector_board_edge_SM
+Add Component: Footprint Not Found HDR-0.1P-3Pin-1Row-SMT
+Add Component: Footprint Not Found S2B-PH-SM4-TB
+Add Component: Footprint Not Found FPC_CONNECTOR_15pin_1-1734248-5
+Add Component: Footprint Not Found FPC_CONNECTOR_15pin_1-1734248-5
+Add Component: Footprint Not Found MICRO_SD_CARD_114-00841-68_v2
+Added Component: Designator=J20(USB-C - 16 Pin Mid Mount)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Jing Extension of the Electronic Co"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "C168688"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found CON4_614004134726_TH
+Add Component: Footprint Not Found CON4_614004134726_TH
+Add Component: Footprint Not Found RES0402
+Added Component: Designator=L2(L0402-Murata-WW-High-Density)
+Add component (AddParameter): Name = "Value"; Value = "??H"; VariantName = "[No Variations]"
+Added Component: Designator=L3(L1008)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2037-SDEM25201B-2R2MSCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2uH"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found Solderbridge-Short
+Add Component: Footprint Not Found Solderbridge-Short
+Add Component: Footprint Not Found Solderbridge-Open
+Add Component: Footprint Not Found Solderbridge-Open
+Add Component: Footprint Not Found Soket_Siyah_Yakup_4_Pin
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found RES 0402 HD
+Add Component: Footprint Not Found C0603
+Add Component: Footprint Not Found C0603
+Add Component: Footprint Not Found C0603
+Add Component: Footprint Not Found C0603
+Add Component: Footprint Not Found C0603
+Add Component: Footprint Not Found C0603
+Add Component: Footprint Not Found c0603
+Add Component: Footprint Not Found C0603
+Add Component: Footprint Not Found C0603
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Add Component: Footprint Not Found RES0402
+Added Component: Designator=R80(R0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "Features"; Value = "Automotive AEC-Q200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "±100ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5.1k"; VariantName = "[No Variations]"
+Added Component: Designator=R81(R0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "Features"; Value = "Automotive AEC-Q200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "±100ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5.1k"; VariantName = "[No Variations]"
+Added Component: Designator=R82(R0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-10.0KLRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R83(R0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-100LRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R84(R0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-100LRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R85(R0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1.00KLRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R86(R0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1.00KLRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R87(R0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1.00KLRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R88(R0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1.00KLRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R89(R0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1.00KLRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R90(R0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-33.0KLRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33k"; VariantName = "[No Variations]"
+Added Component: Designator=R91(R0402-HIGH-DENSITY)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-10.0KLRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found RES_0603
+Add Component: Footprint Not Found RES_0603
+Add Component: Footprint Not Found RES 0201 HD
+Add Component: Footprint Not Found EG1224
+Add Component: Footprint Not Found TP12R
+Add Component: Footprint Not Found TP12R
+Add Component: Footprint Not Found TP12R
+Add Component: Footprint Not Found TP12R
+Add Component: Footprint Not Found TP12R
+Add Component: Footprint Not Found TP12R
+Add Component: Footprint Not Found TP12R
+Add Component: Footprint Not Found TP12R
+Add Component: Footprint Not Found TP12R
+Add Component: Footprint Not Found TP12R
+Add Component: Footprint Not Found TP12R
+Add Component: Footprint Not Found ICG-20330
+Add Component: Footprint Not Found ADXL345
+Add Component: Footprint Not Found DFN0.65P-8Pin
+Add Component: Footprint Not Found LTR-303ALS-01
+Add Component: Footprint Not Found LIS3MDL
+Add Component: Footprint Not Found QFN0.5P3x3-16Pin_W-Pad
+Add Component: Footprint Not Found BQ27421
+Add Component: Footprint Not Found DFN0.95P-6Pin_W-Pad
+Add Component: Footprint Not Found TLP181
+Add Component: Footprint Not Found LMR14203
+Add Component: Footprint Not Found TLP181
+Add Component: Footprint Not Found LMR14203
+Add Component: Footprint Not Found TLP181
+Add Component: Footprint Not Found TSSOP16_N
+Add Component: Footprint Not Found TSSOP8
+Added Component: Designator=U26(QFN56)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1965-ESP32-S2CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "356-ESP32-S2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "C529594"; VariantName = "[No Variations]"
+Added Component: Designator=U27(SOT95P280X90-6N)
+Add component (AddParameter): Name = "Last Modified By"; Value = "Peter Kazakoff"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Modified Date"; Value = "November 13th 2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TPS564201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "296-44195-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-44195-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=Y2(SiT8008B)
+Add component (AddParameter): Name = "Current - Supply (Max)"; Value = "4.5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency Stability"; Value = "±10ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output"; Value = "CMOS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "C669085"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetA1_1 Pin=A1-1
+Added Pin To Net: NetName=GND Pin=A1-2
+Added Pin To Net: NetName=GND Pin=A1-2
+Added Pin To Net: NetName=GND Pin=A1-2
+Add Pin To Net: Unknown Pin: Pin BTN?-1
+Add Pin To Net: Unknown Pin: Pin BTN?-2
+Add Pin To Net: Unknown Pin: Pin C83-1
+Add Pin To Net: Unknown Pin: Pin C83-2
+Add Pin To Net: Unknown Pin: Pin C84-1
+Add Pin To Net: Unknown Pin: Pin C84-2
+Add Pin To Net: Unknown Pin: Pin C85-1
+Add Pin To Net: Unknown Pin: Pin C85-2
+Add Pin To Net: Unknown Pin: Pin C86-1
+Add Pin To Net: Unknown Pin: Pin C86-2
+Add Pin To Net: Unknown Pin: Pin C87-1
+Add Pin To Net: Unknown Pin: Pin C87-2
+Add Pin To Net: Unknown Pin: Pin C88-1
+Add Pin To Net: Unknown Pin: Pin C88-2
+Add Pin To Net: Unknown Pin: Pin C89-1
+Add Pin To Net: Unknown Pin: Pin C89-2
+Add Pin To Net: Unknown Pin: Pin C90-1
+Add Pin To Net: Unknown Pin: Pin C90-2
+Add Pin To Net: Unknown Pin: Pin C91-1
+Add Pin To Net: Unknown Pin: Pin C91-2
+Add Pin To Net: Unknown Pin: Pin C92-1
+Add Pin To Net: Unknown Pin: Pin C92-2
+Add Pin To Net: Unknown Pin: Pin C93-1
+Add Pin To Net: Unknown Pin: Pin C93-2
+Add Pin To Net: Unknown Pin: Pin C94-1
+Add Pin To Net: Unknown Pin: Pin C94-2
+Add Pin To Net: Unknown Pin: Pin C95-1
+Add Pin To Net: Unknown Pin: Pin C95-2
+Add Pin To Net: Unknown Pin: Pin C96-1
+Add Pin To Net: Unknown Pin: Pin C96-2
+Add Pin To Net: Unknown Pin: Pin C97-1
+Add Pin To Net: Unknown Pin: Pin C97-2
+Add Pin To Net: Unknown Pin: Pin C98-1
+Add Pin To Net: Unknown Pin: Pin C98-2
+Add Pin To Net: Unknown Pin: Pin C99-1
+Add Pin To Net: Unknown Pin: Pin C99-2
+Add Pin To Net: Unknown Pin: Pin C100-1
+Add Pin To Net: Unknown Pin: Pin C100-2
+Add Pin To Net: Unknown Pin: Pin C101-1
+Add Pin To Net: Unknown Pin: Pin C101-2
+Add Pin To Net: Unknown Pin: Pin C102-1
+Add Pin To Net: Unknown Pin: Pin C102-2
+Add Pin To Net: Unknown Pin: Pin C103-1
+Add Pin To Net: Unknown Pin: Pin C103-2
+Add Pin To Net: Unknown Pin: Pin C104-1
+Add Pin To Net: Unknown Pin: Pin C104-2
+Add Pin To Net: Unknown Pin: Pin C105-1
+Add Pin To Net: Unknown Pin: Pin C105-2
+Add Pin To Net: Unknown Pin: Pin C106-1
+Add Pin To Net: Unknown Pin: Pin C106-2
+Add Pin To Net: Unknown Pin: Pin C107-1
+Add Pin To Net: Unknown Pin: Pin C107-2
+Add Pin To Net: Unknown Pin: Pin C108-1
+Add Pin To Net: Unknown Pin: Pin C108-2
+Add Pin To Net: Unknown Pin: Pin C109-1
+Add Pin To Net: Unknown Pin: Pin C109-2
+Add Pin To Net: Unknown Pin: Pin C110-1
+Add Pin To Net: Unknown Pin: Pin C110-2
+Add Pin To Net: Unknown Pin: Pin C111-1
+Add Pin To Net: Unknown Pin: Pin C111-2
+Add Pin To Net: Unknown Pin: Pin C112-1
+Add Pin To Net: Unknown Pin: Pin C112-2
+Add Pin To Net: Unknown Pin: Pin C113-1
+Add Pin To Net: Unknown Pin: Pin C113-2
+Add Pin To Net: Unknown Pin: Pin C114-1
+Add Pin To Net: Unknown Pin: Pin C114-2
+Add Pin To Net: Unknown Pin: Pin C115-1
+Add Pin To Net: Unknown Pin: Pin C115-2
+Add Pin To Net: Unknown Pin: Pin C116-1
+Add Pin To Net: Unknown Pin: Pin C116-2
+Add Pin To Net: Unknown Pin: Pin C117-1
+Add Pin To Net: Unknown Pin: Pin C117-2
+Add Pin To Net: Unknown Pin: Pin C118-1
+Add Pin To Net: Unknown Pin: Pin C118-2
+Add Pin To Net: Unknown Pin: Pin C119-1
+Add Pin To Net: Unknown Pin: Pin C119-2
+Add Pin To Net: Unknown Pin: Pin C120-1
+Add Pin To Net: Unknown Pin: Pin C120-2
+Add Pin To Net: Unknown Pin: Pin C121-1
+Add Pin To Net: Unknown Pin: Pin C121-2
+Add Pin To Net: Unknown Pin: Pin C122-1
+Add Pin To Net: Unknown Pin: Pin C122-2
+Add Pin To Net: Unknown Pin: Pin C123-1
+Add Pin To Net: Unknown Pin: Pin C123-2
+Add Pin To Net: Unknown Pin: Pin C124-1
+Add Pin To Net: Unknown Pin: Pin C124-2
+Add Pin To Net: Unknown Pin: Pin C125-1
+Add Pin To Net: Unknown Pin: Pin C125-2
+Add Pin To Net: Unknown Pin: Pin C126-1
+Add Pin To Net: Unknown Pin: Pin C126-2
+Add Pin To Net: Unknown Pin: Pin C127-1
+Add Pin To Net: Unknown Pin: Pin C127-2
+Add Pin To Net: Unknown Pin: Pin C128-1
+Add Pin To Net: Unknown Pin: Pin C128-2
+Add Pin To Net: Unknown Pin: Pin C129-1
+Add Pin To Net: Unknown Pin: Pin C129-2
+Add Pin To Net: Unknown Pin: Pin C130-1
+Add Pin To Net: Unknown Pin: Pin C130-2
+Add Pin To Net: Unknown Pin: Pin C131-1
+Add Pin To Net: Unknown Pin: Pin C131-2
+Added Pin To Net: NetName=GND Pin=C132-1
+Added Pin To Net: NetName=NetC132_2 Pin=C132-2
+Added Pin To Net: NetName=GND Pin=C133-1
+Added Pin To Net: NetName=NetA1_1 Pin=C133-2
+Added Pin To Net: NetName=GND Pin=C134-1
+Added Pin To Net: NetName=+3V3 Pin=C134-2
+Added Pin To Net: NetName=GND Pin=C135-1
+Added Pin To Net: NetName=+3V3 Pin=C135-2
+Added Pin To Net: NetName=GND Pin=C136-1
+Added Pin To Net: NetName=+3V3 Pin=C136-2
+Added Pin To Net: NetName=GND Pin=C137-1
+Added Pin To Net: NetName=+3V3 Pin=C137-2
+Added Pin To Net: NetName=GND Pin=C138-1
+Added Pin To Net: NetName=+3V3 Pin=C138-2
+Added Pin To Net: NetName=GND Pin=C139-1
+Added Pin To Net: NetName=+3V3 Pin=C139-2
+Added Pin To Net: NetName=GND Pin=C140-1
+Added Pin To Net: NetName=+3V3 Pin=C140-2
+Added Pin To Net: NetName=GND Pin=C141-1
+Added Pin To Net: NetName=+3V3 Pin=C141-2
+Added Pin To Net: NetName=GND Pin=C142-1
+Added Pin To Net: NetName=NetC142_2 Pin=C142-2
+Added Pin To Net: NetName=NetC143_1 Pin=C143-1
+Added Pin To Net: NetName=NetC143_2 Pin=C143-2
+Added Pin To Net: NetName=GND Pin=C144-1
+Added Pin To Net: NetName=VBUS Pin=C144-2
+Added Pin To Net: NetName=GND Pin=C145-1
+Added Pin To Net: NetName=+3V3 Pin=C145-2
+Add Pin To Net: Unknown Pin: Pin D11-1
+Add Pin To Net: Unknown Pin: Pin D11-2
+Add Pin To Net: Unknown Pin: Pin D11-3
+Add Pin To Net: Unknown Pin: Pin D11-4
+Added Pin To Net: NetName=+3V3 Pin=D12-A
+Added Pin To Net: NetName=NetD12_K Pin=D12-K
+Added Pin To Net: NetName=VBUS Pin=D13-A
+Added Pin To Net: NetName=NetD13_K Pin=D13-K
+Add Pin To Net: Unknown Pin: Pin D14-A
+Add Pin To Net: Unknown Pin: Pin D14-BK
+Add Pin To Net: Unknown Pin: Pin D14-GK
+Add Pin To Net: Unknown Pin: Pin D14-RK
+Add Pin To Net: Unknown Pin: Pin D15-1
+Add Pin To Net: Unknown Pin: Pin D15-2
+Add Pin To Net: Unknown Pin: Pin D15-3
+Add Pin To Net: Unknown Pin: Pin D15-4
+Add Pin To Net: Unknown Pin: Pin D15-5
+Add Pin To Net: Unknown Pin: Pin D15-6
+Add Pin To Net: Unknown Pin: Pin D16-1
+Add Pin To Net: Unknown Pin: Pin D16-2
+Add Pin To Net: Unknown Pin: Pin D16-3
+Add Pin To Net: Unknown Pin: Pin D16-4
+Add Pin To Net: Unknown Pin: Pin D16-5
+Add Pin To Net: Unknown Pin: Pin D16-6
+Add Pin To Net: Unknown Pin: Pin ESD1-1
+Add Pin To Net: Unknown Pin: Pin ESD1-2
+Add Pin To Net: Unknown Pin: Pin F1-1
+Add Pin To Net: Unknown Pin: Pin F1-2
+Add Pin To Net: Unknown Pin: Pin FR1-1
+Add Pin To Net: Unknown Pin: Pin FR1-2
+Add Pin To Net: Unknown Pin: Pin FR2-1
+Add Pin To Net: Unknown Pin: Pin FR2-2
+Add Pin To Net: Unknown Pin: Pin IC1-1
+Add Pin To Net: Unknown Pin: Pin IC1-2
+Add Pin To Net: Unknown Pin: Pin IC1-3
+Add Pin To Net: Unknown Pin: Pin IC1-5
+Add Pin To Net: Unknown Pin: Pin IC1-6
+Add Pin To Net: Unknown Pin: Pin IC1-7
+Add Pin To Net: Unknown Pin: Pin IC1-9
+Add Pin To Net: Unknown Pin: Pin IC1-10
+Add Pin To Net: Unknown Pin: Pin IC1-11
+Add Pin To Net: Unknown Pin: Pin IC1-12
+Add Pin To Net: Unknown Pin: Pin IC1-13
+Add Pin To Net: Unknown Pin: Pin IC1-20
+Add Pin To Net: Unknown Pin: Pin IC1-21
+Add Pin To Net: Unknown Pin: Pin IC1-22
+Add Pin To Net: Unknown Pin: Pin IC1-23
+Add Pin To Net: Unknown Pin: Pin IC1-24
+Add Pin To Net: Unknown Pin: Pin IC2-1
+Add Pin To Net: Unknown Pin: Pin IC2-2
+Add Pin To Net: Unknown Pin: Pin IC2-3
+Add Pin To Net: Unknown Pin: Pin IC2-4
+Add Pin To Net: Unknown Pin: Pin IC2-5
+Add Pin To Net: Unknown Pin: Pin IC2-6
+Add Pin To Net: Unknown Pin: Pin IC2-7
+Add Pin To Net: Unknown Pin: Pin IC2-8
+Add Pin To Net: Unknown Pin: Pin J13-1
+Add Pin To Net: Unknown Pin: Pin J13-2
+Add Pin To Net: Unknown Pin: Pin J14-1
+Add Pin To Net: Unknown Pin: Pin J14-2
+Add Pin To Net: Unknown Pin: Pin J15-1
+Add Pin To Net: Unknown Pin: Pin J15-2
+Add Pin To Net: Unknown Pin: Pin J15-3
+Add Pin To Net: Unknown Pin: Pin J16-1
+Add Pin To Net: Unknown Pin: Pin J16-2
+Add Pin To Net: Unknown Pin: Pin J16-MH1
+Add Pin To Net: Unknown Pin: Pin J17-1
+Add Pin To Net: Unknown Pin: Pin J17-2
+Add Pin To Net: Unknown Pin: Pin J17-3
+Add Pin To Net: Unknown Pin: Pin J17-4
+Add Pin To Net: Unknown Pin: Pin J17-5
+Add Pin To Net: Unknown Pin: Pin J17-6
+Add Pin To Net: Unknown Pin: Pin J17-7
+Add Pin To Net: Unknown Pin: Pin J17-8
+Add Pin To Net: Unknown Pin: Pin J17-9
+Add Pin To Net: Unknown Pin: Pin J17-10
+Add Pin To Net: Unknown Pin: Pin J17-11
+Add Pin To Net: Unknown Pin: Pin J17-12
+Add Pin To Net: Unknown Pin: Pin J17-13
+Add Pin To Net: Unknown Pin: Pin J17-14
+Add Pin To Net: Unknown Pin: Pin J17-15
+Add Pin To Net: Unknown Pin: Pin J18-1
+Add Pin To Net: Unknown Pin: Pin J18-2
+Add Pin To Net: Unknown Pin: Pin J18-3
+Add Pin To Net: Unknown Pin: Pin J18-4
+Add Pin To Net: Unknown Pin: Pin J18-5
+Add Pin To Net: Unknown Pin: Pin J18-6
+Add Pin To Net: Unknown Pin: Pin J18-7
+Add Pin To Net: Unknown Pin: Pin J18-8
+Add Pin To Net: Unknown Pin: Pin J18-9
+Add Pin To Net: Unknown Pin: Pin J18-10
+Add Pin To Net: Unknown Pin: Pin J18-11
+Add Pin To Net: Unknown Pin: Pin J18-12
+Add Pin To Net: Unknown Pin: Pin J18-13
+Add Pin To Net: Unknown Pin: Pin J18-14
+Add Pin To Net: Unknown Pin: Pin J18-15
+Add Pin To Net: Unknown Pin: Pin J19-1
+Add Pin To Net: Unknown Pin: Pin J19-2
+Add Pin To Net: Unknown Pin: Pin J19-3
+Add Pin To Net: Unknown Pin: Pin J19-4
+Add Pin To Net: Unknown Pin: Pin J19-5
+Add Pin To Net: Unknown Pin: Pin J19-6
+Add Pin To Net: Unknown Pin: Pin J19-7
+Add Pin To Net: Unknown Pin: Pin J19-8
+Add Pin To Net: Unknown Pin: Pin J19-12
+Add Pin To Net: Unknown Pin: Pin J19-13
+Added Pin To Net: NetName=GND Pin=J20-A1
+Added Pin To Net: NetName=VBUS Pin=J20-A4
+Added Pin To Net: NetName=NetJ20_A5 Pin=J20-A5
+Added Pin To Net: NetName=NetJ20_A6 Pin=J20-A6
+Added Pin To Net: NetName=NetJ20_A7 Pin=J20-A7
+Added Pin To Net: NetName=VBUS Pin=J20-A9
+Added Pin To Net: NetName=GND Pin=J20-A12
+Added Pin To Net: NetName=GND Pin=J20-B1
+Added Pin To Net: NetName=VBUS Pin=J20-B4
+Added Pin To Net: NetName=NetJ20_B5 Pin=J20-B5
+Added Pin To Net: NetName=NetJ20_A6 Pin=J20-B6
+Added Pin To Net: NetName=NetJ20_A7 Pin=J20-B7
+Added Pin To Net: NetName=VBUS Pin=J20-B9
+Added Pin To Net: NetName=GND Pin=J20-B12
+Added Pin To Net: NetName=GND Pin=J20-S1
+Added Pin To Net: NetName=GND Pin=J20-S2
+Added Pin To Net: NetName=GND Pin=J20-S3
+Added Pin To Net: NetName=GND Pin=J20-S4
+Add Pin To Net: Unknown Pin: Pin J21-1
+Add Pin To Net: Unknown Pin: Pin J21-2
+Add Pin To Net: Unknown Pin: Pin J21-3
+Add Pin To Net: Unknown Pin: Pin J21-4
+Add Pin To Net: Unknown Pin: Pin J21-P1
+Add Pin To Net: Unknown Pin: Pin J21-P2
+Add Pin To Net: Unknown Pin: Pin J22-1
+Add Pin To Net: Unknown Pin: Pin J22-2
+Add Pin To Net: Unknown Pin: Pin J22-3
+Add Pin To Net: Unknown Pin: Pin J22-4
+Add Pin To Net: Unknown Pin: Pin J22-P1
+Add Pin To Net: Unknown Pin: Pin J22-P2
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Added Pin To Net: NetName=NetC132_2 Pin=L2-1
+Added Pin To Net: NetName=NetA1_1 Pin=L2-2
+Added Pin To Net: NetName=NetC143_1 Pin=L3-1
+Added Pin To Net: NetName=+3V3 Pin=L3-2
+Add Pin To Net: Unknown Pin: Pin NC1-1
+Add Pin To Net: Unknown Pin: Pin NC1-2
+Add Pin To Net: Unknown Pin: Pin NC2-1
+Add Pin To Net: Unknown Pin: Pin NC2-2
+Add Pin To Net: Unknown Pin: Pin NO1-1
+Add Pin To Net: Unknown Pin: Pin NO1-2
+Add Pin To Net: Unknown Pin: Pin NO2-1
+Add Pin To Net: Unknown Pin: Pin NO2-2
+Add Pin To Net: Unknown Pin: Pin P1-1
+Add Pin To Net: Unknown Pin: Pin P1-2
+Add Pin To Net: Unknown Pin: Pin P1-3
+Add Pin To Net: Unknown Pin: Pin P1-4
+Add Pin To Net: Unknown Pin: Pin R36-1
+Add Pin To Net: Unknown Pin: Pin R36-2
+Add Pin To Net: Unknown Pin: Pin R37-1
+Add Pin To Net: Unknown Pin: Pin R37-2
+Add Pin To Net: Unknown Pin: Pin R38-1
+Add Pin To Net: Unknown Pin: Pin R38-2
+Add Pin To Net: Unknown Pin: Pin R39-1
+Add Pin To Net: Unknown Pin: Pin R39-2
+Add Pin To Net: Unknown Pin: Pin R40-1
+Add Pin To Net: Unknown Pin: Pin R40-2
+Add Pin To Net: Unknown Pin: Pin R42-1
+Add Pin To Net: Unknown Pin: Pin R42-2
+Add Pin To Net: Unknown Pin: Pin R43-1
+Add Pin To Net: Unknown Pin: Pin R43-2
+Add Pin To Net: Unknown Pin: Pin R44-1
+Add Pin To Net: Unknown Pin: Pin R44-2
+Add Pin To Net: Unknown Pin: Pin R45-1
+Add Pin To Net: Unknown Pin: Pin R45-2
+Add Pin To Net: Unknown Pin: Pin R46-1
+Add Pin To Net: Unknown Pin: Pin R46-2
+Add Pin To Net: Unknown Pin: Pin R47-1
+Add Pin To Net: Unknown Pin: Pin R47-2
+Add Pin To Net: Unknown Pin: Pin R48-1
+Add Pin To Net: Unknown Pin: Pin R48-2
+Add Pin To Net: Unknown Pin: Pin R49-1
+Add Pin To Net: Unknown Pin: Pin R49-2
+Add Pin To Net: Unknown Pin: Pin R50-1
+Add Pin To Net: Unknown Pin: Pin R50-2
+Add Pin To Net: Unknown Pin: Pin R51-1
+Add Pin To Net: Unknown Pin: Pin R51-2
+Add Pin To Net: Unknown Pin: Pin R52-1
+Add Pin To Net: Unknown Pin: Pin R52-2
+Add Pin To Net: Unknown Pin: Pin R53-1
+Add Pin To Net: Unknown Pin: Pin R53-2
+Add Pin To Net: Unknown Pin: Pin R54-1
+Add Pin To Net: Unknown Pin: Pin R54-2
+Add Pin To Net: Unknown Pin: Pin R55-1
+Add Pin To Net: Unknown Pin: Pin R55-2
+Add Pin To Net: Unknown Pin: Pin R56-1
+Add Pin To Net: Unknown Pin: Pin R56-2
+Add Pin To Net: Unknown Pin: Pin R57-1
+Add Pin To Net: Unknown Pin: Pin R57-2
+Add Pin To Net: Unknown Pin: Pin R58-1
+Add Pin To Net: Unknown Pin: Pin R58-2
+Add Pin To Net: Unknown Pin: Pin R59-1
+Add Pin To Net: Unknown Pin: Pin R59-2
+Add Pin To Net: Unknown Pin: Pin R60-1
+Add Pin To Net: Unknown Pin: Pin R60-2
+Add Pin To Net: Unknown Pin: Pin R61-1
+Add Pin To Net: Unknown Pin: Pin R61-2
+Add Pin To Net: Unknown Pin: Pin R62-1
+Add Pin To Net: Unknown Pin: Pin R62-2
+Add Pin To Net: Unknown Pin: Pin R63-1
+Add Pin To Net: Unknown Pin: Pin R63-2
+Add Pin To Net: Unknown Pin: Pin R64-1
+Add Pin To Net: Unknown Pin: Pin R64-2
+Add Pin To Net: Unknown Pin: Pin R65-1
+Add Pin To Net: Unknown Pin: Pin R65-2
+Add Pin To Net: Unknown Pin: Pin R66-1
+Add Pin To Net: Unknown Pin: Pin R66-2
+Add Pin To Net: Unknown Pin: Pin R67-1
+Add Pin To Net: Unknown Pin: Pin R67-2
+Add Pin To Net: Unknown Pin: Pin R68-1
+Add Pin To Net: Unknown Pin: Pin R68-2
+Add Pin To Net: Unknown Pin: Pin R69-1
+Add Pin To Net: Unknown Pin: Pin R69-2
+Add Pin To Net: Unknown Pin: Pin R70-1
+Add Pin To Net: Unknown Pin: Pin R70-2
+Add Pin To Net: Unknown Pin: Pin R71-1
+Add Pin To Net: Unknown Pin: Pin R71-2
+Add Pin To Net: Unknown Pin: Pin R72-1
+Add Pin To Net: Unknown Pin: Pin R72-2
+Add Pin To Net: Unknown Pin: Pin R73-1
+Add Pin To Net: Unknown Pin: Pin R73-2
+Add Pin To Net: Unknown Pin: Pin R74-1
+Add Pin To Net: Unknown Pin: Pin R74-2
+Add Pin To Net: Unknown Pin: Pin R75-1
+Add Pin To Net: Unknown Pin: Pin R75-2
+Add Pin To Net: Unknown Pin: Pin R76-1
+Add Pin To Net: Unknown Pin: Pin R76-2
+Add Pin To Net: Unknown Pin: Pin R77-1
+Add Pin To Net: Unknown Pin: Pin R77-2
+Add Pin To Net: Unknown Pin: Pin R78-1
+Add Pin To Net: Unknown Pin: Pin R78-2
+Add Pin To Net: Unknown Pin: Pin R79-1
+Add Pin To Net: Unknown Pin: Pin R79-2
+Added Pin To Net: NetName=NetJ20_A5 Pin=R80-1
+Added Pin To Net: NetName=GND Pin=R80-2
+Added Pin To Net: NetName=NetJ20_B5 Pin=R81-1
+Added Pin To Net: NetName=GND Pin=R81-2
+Added Pin To Net: NetName=+3V3 Pin=R82-1
+Added Pin To Net: NetName=RST_N Pin=R82-2
+Added Pin To Net: NetName=NetJ20_A6 Pin=R83-1
+Added Pin To Net: NetName=USB_P Pin=R83-2
+Added Pin To Net: NetName=NetJ20_A7 Pin=R84-1
+Added Pin To Net: NetName=USB_N Pin=R84-2
+Added Pin To Net: NetName=GND Pin=R85-1
+Added Pin To Net: NetName=NetD12_K Pin=R85-2
+Added Pin To Net: NetName=GND Pin=R86-1
+Added Pin To Net: NetName=NetD13_K Pin=R86-2
+Added Pin To Net: NetName=LEDR Pin=R87-1
+Added Pin To Net: NetName=NetD14_RK Pin=R87-2
+Added Pin To Net: NetName=LEDB Pin=R88-1
+Added Pin To Net: NetName=NetD14_BK Pin=R88-2
+Added Pin To Net: NetName=LEDG Pin=R89-1
+Added Pin To Net: NetName=NetD14_GK Pin=R89-2
+Added Pin To Net: NetName=NetR90_1 Pin=R90-1
+Added Pin To Net: NetName=+3V3 Pin=R90-2
+Added Pin To Net: NetName=GND Pin=R91-1
+Added Pin To Net: NetName=NetR90_1 Pin=R91-2
+Add Pin To Net: Unknown Pin: Pin R92-1
+Add Pin To Net: Unknown Pin: Pin R92-2
+Add Pin To Net: Unknown Pin: Pin R93-1
+Add Pin To Net: Unknown Pin: Pin R93-2
+Add Pin To Net: Unknown Pin: Pin RT1-1
+Add Pin To Net: Unknown Pin: Pin RT1-2
+Add Pin To Net: Unknown Pin: Pin SW1-1
+Add Pin To Net: Unknown Pin: Pin SW1-2
+Add Pin To Net: Unknown Pin: Pin SW1-4
+Add Pin To Net: Unknown Pin: Pin TP1-1
+Add Pin To Net: Unknown Pin: Pin TP2-1
+Add Pin To Net: Unknown Pin: Pin TP3-1
+Add Pin To Net: Unknown Pin: Pin TP4-1
+Add Pin To Net: Unknown Pin: Pin TP5-1
+Add Pin To Net: Unknown Pin: Pin TP6-1
+Add Pin To Net: Unknown Pin: Pin TP7-1
+Add Pin To Net: Unknown Pin: Pin TP8-1
+Add Pin To Net: Unknown Pin: Pin TP9-1
+Add Pin To Net: Unknown Pin: Pin TP10-1
+Add Pin To Net: Unknown Pin: Pin TP11-1
+Add Pin To Net: Unknown Pin: Pin U11-1
+Add Pin To Net: Unknown Pin: Pin U11-2
+Add Pin To Net: Unknown Pin: Pin U11-3
+Add Pin To Net: Unknown Pin: Pin U11-4
+Add Pin To Net: Unknown Pin: Pin U11-5
+Add Pin To Net: Unknown Pin: Pin U11-6
+Add Pin To Net: Unknown Pin: Pin U11-8
+Add Pin To Net: Unknown Pin: Pin U11-9
+Add Pin To Net: Unknown Pin: Pin U11-10
+Add Pin To Net: Unknown Pin: Pin U11-11
+Add Pin To Net: Unknown Pin: Pin U11-12
+Add Pin To Net: Unknown Pin: Pin U11-13
+Add Pin To Net: Unknown Pin: Pin U11-14
+Add Pin To Net: Unknown Pin: Pin U11-15
+Add Pin To Net: Unknown Pin: Pin U11-16
+Add Pin To Net: Unknown Pin: Pin U12-1
+Add Pin To Net: Unknown Pin: Pin U12-2
+Add Pin To Net: Unknown Pin: Pin U12-4
+Add Pin To Net: Unknown Pin: Pin U12-5
+Add Pin To Net: Unknown Pin: Pin U12-6
+Add Pin To Net: Unknown Pin: Pin U12-7
+Add Pin To Net: Unknown Pin: Pin U12-8
+Add Pin To Net: Unknown Pin: Pin U12-12
+Add Pin To Net: Unknown Pin: Pin U12-13
+Add Pin To Net: Unknown Pin: Pin U12-14
+Add Pin To Net: Unknown Pin: Pin U13-1
+Add Pin To Net: Unknown Pin: Pin U13-2
+Add Pin To Net: Unknown Pin: Pin U13-3
+Add Pin To Net: Unknown Pin: Pin U13-4
+Add Pin To Net: Unknown Pin: Pin U13-5
+Add Pin To Net: Unknown Pin: Pin U13-6
+Add Pin To Net: Unknown Pin: Pin U13-7
+Add Pin To Net: Unknown Pin: Pin U13-8
+Add Pin To Net: Unknown Pin: Pin U14-1
+Add Pin To Net: Unknown Pin: Pin U14-3
+Add Pin To Net: Unknown Pin: Pin U14-4
+Add Pin To Net: Unknown Pin: Pin U14-5
+Add Pin To Net: Unknown Pin: Pin U14-6
+Add Pin To Net: Unknown Pin: Pin U15-1
+Add Pin To Net: Unknown Pin: Pin U15-2
+Add Pin To Net: Unknown Pin: Pin U15-3
+Add Pin To Net: Unknown Pin: Pin U15-4
+Add Pin To Net: Unknown Pin: Pin U15-5
+Add Pin To Net: Unknown Pin: Pin U15-6
+Add Pin To Net: Unknown Pin: Pin U15-7
+Add Pin To Net: Unknown Pin: Pin U15-9
+Add Pin To Net: Unknown Pin: Pin U15-10
+Add Pin To Net: Unknown Pin: Pin U15-11
+Add Pin To Net: Unknown Pin: Pin U15-12
+Add Pin To Net: Unknown Pin: Pin U16-1
+Add Pin To Net: Unknown Pin: Pin U16-2
+Add Pin To Net: Unknown Pin: Pin U16-3
+Add Pin To Net: Unknown Pin: Pin U16-4
+Add Pin To Net: Unknown Pin: Pin U16-5
+Add Pin To Net: Unknown Pin: Pin U16-6
+Add Pin To Net: Unknown Pin: Pin U16-7
+Add Pin To Net: Unknown Pin: Pin U16-8
+Add Pin To Net: Unknown Pin: Pin U16-9
+Add Pin To Net: Unknown Pin: Pin U16-10
+Add Pin To Net: Unknown Pin: Pin U16-11
+Add Pin To Net: Unknown Pin: Pin U16-13
+Add Pin To Net: Unknown Pin: Pin U16-14
+Add Pin To Net: Unknown Pin: Pin U16-15
+Add Pin To Net: Unknown Pin: Pin U16-16
+Add Pin To Net: Unknown Pin: Pin U16-EPAD
+Add Pin To Net: Unknown Pin: Pin U17-A1
+Add Pin To Net: Unknown Pin: Pin U17-A2
+Add Pin To Net: Unknown Pin: Pin U17-A3
+Add Pin To Net: Unknown Pin: Pin U17-B1
+Add Pin To Net: Unknown Pin: Pin U17-B2
+Add Pin To Net: Unknown Pin: Pin U17-B3
+Add Pin To Net: Unknown Pin: Pin U17-C1
+Add Pin To Net: Unknown Pin: Pin U17-C2
+Add Pin To Net: Unknown Pin: Pin U17-C3
+Add Pin To Net: Unknown Pin: Pin U18-1
+Add Pin To Net: Unknown Pin: Pin U18-2
+Add Pin To Net: Unknown Pin: Pin U18-3
+Add Pin To Net: Unknown Pin: Pin U18-4
+Add Pin To Net: Unknown Pin: Pin U18-5
+Add Pin To Net: Unknown Pin: Pin U18-6
+Add Pin To Net: Unknown Pin: Pin U18-7
+Add Pin To Net: Unknown Pin: Pin U19-1
+Add Pin To Net: Unknown Pin: Pin U19-2
+Add Pin To Net: Unknown Pin: Pin U19-3
+Add Pin To Net: Unknown Pin: Pin U19-4
+Add Pin To Net: Unknown Pin: Pin U20-1
+Add Pin To Net: Unknown Pin: Pin U20-2
+Add Pin To Net: Unknown Pin: Pin U20-3
+Add Pin To Net: Unknown Pin: Pin U20-4
+Add Pin To Net: Unknown Pin: Pin U20-5
+Add Pin To Net: Unknown Pin: Pin U20-6
+Add Pin To Net: Unknown Pin: Pin U21-1
+Add Pin To Net: Unknown Pin: Pin U21-2
+Add Pin To Net: Unknown Pin: Pin U21-3
+Add Pin To Net: Unknown Pin: Pin U21-4
+Add Pin To Net: Unknown Pin: Pin U22-1
+Add Pin To Net: Unknown Pin: Pin U22-2
+Add Pin To Net: Unknown Pin: Pin U22-3
+Add Pin To Net: Unknown Pin: Pin U22-4
+Add Pin To Net: Unknown Pin: Pin U22-5
+Add Pin To Net: Unknown Pin: Pin U22-6
+Add Pin To Net: Unknown Pin: Pin U23-1
+Add Pin To Net: Unknown Pin: Pin U23-2
+Add Pin To Net: Unknown Pin: Pin U23-3
+Add Pin To Net: Unknown Pin: Pin U23-4
+Add Pin To Net: Unknown Pin: Pin U24-1
+Add Pin To Net: Unknown Pin: Pin U24-2
+Add Pin To Net: Unknown Pin: Pin U24-3
+Add Pin To Net: Unknown Pin: Pin U24-4
+Add Pin To Net: Unknown Pin: Pin U24-5
+Add Pin To Net: Unknown Pin: Pin U24-6
+Add Pin To Net: Unknown Pin: Pin U24-11
+Add Pin To Net: Unknown Pin: Pin U24-12
+Add Pin To Net: Unknown Pin: Pin U24-13
+Add Pin To Net: Unknown Pin: Pin U24-14
+Add Pin To Net: Unknown Pin: Pin U24-15
+Add Pin To Net: Unknown Pin: Pin U24-16
+Add Pin To Net: Unknown Pin: Pin U25-4
+Add Pin To Net: Unknown Pin: Pin U25-5
+Add Pin To Net: Unknown Pin: Pin U25-6
+Add Pin To Net: Unknown Pin: Pin U25-8
+Added Pin To Net: NetName=+3V3 Pin=U26-1
+Added Pin To Net: NetName=NetC132_2 Pin=U26-2
+Added Pin To Net: NetName=+3V3 Pin=U26-3
+Added Pin To Net: NetName=+3V3 Pin=U26-4
+Added Pin To Net: NetName=GPIO0_BOOT Pin=U26-5
+Added Pin To Net: NetName=GPIO1 Pin=U26-6
+Added Pin To Net: NetName=GPIO2 Pin=U26-7
+Added Pin To Net: NetName=LEDR Pin=U26-8
+Added Pin To Net: NetName=LEDG Pin=U26-9
+Added Pin To Net: NetName=LEDB Pin=U26-10
+Added Pin To Net: NetName=GPIO8 Pin=U26-13
+Added Pin To Net: NetName=GPIO9 Pin=U26-14
+Added Pin To Net: NetName=GPIO10 Pin=U26-15
+Added Pin To Net: NetName=GPIO11 Pin=U26-16
+Added Pin To Net: NetName=GPIO12 Pin=U26-17
+Added Pin To Net: NetName=GPIO13 Pin=U26-18
+Added Pin To Net: NetName=+3V3 Pin=U26-20
+Added Pin To Net: NetName=DAC_1 Pin=U26-23
+Added Pin To Net: NetName=DAC_2 Pin=U26-24
+Added Pin To Net: NetName=USB_N Pin=U26-25
+Added Pin To Net: NetName=USB_P Pin=U26-26
+Added Pin To Net: NetName=+3V3 Pin=U26-27
+Added Pin To Net: NetName=CH1_G Pin=U26-28
+Added Pin To Net: NetName=VDD_SPI Pin=U26-30
+Added Pin To Net: NetName=SPI_HOLD/DQ3 Pin=U26-31
+Added Pin To Net: NetName=SPI_WP/DQ2 Pin=U26-32
+Added Pin To Net: NetName=SPI_CS Pin=U26-33
+Added Pin To Net: NetName=SPI_CLK Pin=U26-34
+Added Pin To Net: NetName=SPI_CIPO/DQ1 Pin=U26-35
+Added Pin To Net: NetName=SPI_COPI/DQ0 Pin=U26-36
+Added Pin To Net: NetName=CH2_G Pin=U26-37
+Added Pin To Net: NetName=CH3_G Pin=U26-38
+Added Pin To Net: NetName=CH4_G Pin=U26-39
+Added Pin To Net: NetName=GPIO36 Pin=U26-40
+Added Pin To Net: NetName=GPIO37 Pin=U26-41
+Added Pin To Net: NetName=GPIO38 Pin=U26-42
+Added Pin To Net: NetName=+3V3 Pin=U26-45
+Added Pin To Net: NetName=U0TXD Pin=U26-48
+Added Pin To Net: NetName=U0RXD Pin=U26-49
+Added Pin To Net: NetName=GPIO45 Pin=U26-50
+Added Pin To Net: NetName=+3V3 Pin=U26-51
+Added Pin To Net: NetName=NetC142_2 Pin=U26-53
+Added Pin To Net: NetName=+3V3 Pin=U26-54
+Added Pin To Net: NetName=GPIO46 Pin=U26-55
+Added Pin To Net: NetName=RST_N Pin=U26-56
+Added Pin To Net: NetName=GND Pin=U26-57
+Added Pin To Net: NetName=GND Pin=U27-1
+Added Pin To Net: NetName=NetC143_1 Pin=U27-2
+Added Pin To Net: NetName=VBUS Pin=U27-3
+Added Pin To Net: NetName=NetR90_1 Pin=U27-4
+Added Pin To Net: NetName=VBUS Pin=U27-5
+Added Pin To Net: NetName=NetC143_2 Pin=U27-6
+Added Pin To Net: NetName=+3V3 Pin=Y2-1
+Added Pin To Net: NetName=GND Pin=Y2-2
+Added Pin To Net: NetName=NetC142_2 Pin=Y2-3
+Added Pin To Net: NetName=+3V3 Pin=Y2-4
+Added Member To Class: ClassName=ESP32 Member=Component A1 0479480001
+Add Class Member: Failed to add class member : Component BTN? 135-00006
+Added Member To Class: ClassName=[6]-CH340C Member=Component C22 0.1µF
+Added Member To Class: ClassName=[7]-ADC CHIP Member=Component C23 0.1µF
+Added Member To Class: ClassName=[7]-ADC CHIP Member=Component C24 0.1µF
+Added Member To Class: ClassName=[7]-ADC CHIP Member=Component C25 0.1µF
+Added Member To Class: ClassName=[7]-ADC CHIP Member=Component C26 10nF
+Added Member To Class: ClassName=[7]-ADC CHIP Member=Component C27 10nF
+Add Class Member: Failed to add class member : Component C83 1uF, 10V
+Add Class Member: Failed to add class member : Component C84 10uF, 6.3V
+Add Class Member: Failed to add class member : Component C85 100pF, 50V
+Add Class Member: Failed to add class member : Component C86 100pF, 50V
+Add Class Member: Failed to add class member : Component C87 100nF, 16V
+Add Class Member: Failed to add class member : Component C88 100nF, 16V
+Add Class Member: Failed to add class member : Component C89 100pF, 50V
+Add Class Member: Failed to add class member : Component C90 120-000204.7uF
+Add Class Member: Failed to add class member : Component C91 120-000160.1uF
+Add Class Member: Failed to add class member : Component C92 120-000204.7uF
+Add Class Member: Failed to add class member : Component C93 120-000160.1uF
+Add Class Member: Failed to add class member : Component C94 120-000160.1uF
+Add Class Member: Failed to add class member : Component C95 120-000720.47uF
+Add Class Member: Failed to add class member : Component C96 120-000160.1uF
+Add Class Member: Failed to add class member : Component C97 120-000204.7uF
+Add Class Member: Failed to add class member : Component C98 120-000160.1uF
+Add Class Member: Failed to add class member : Component C99 120-000160.1uF
+Add Class Member: Failed to add class member : Component C100 120-000204.7uF
+Add Class Member: Failed to add class member : Component C101 120-000160.1uF
+Add Class Member: Failed to add class member : Component C102 120-000204.7uF
+Add Class Member: Failed to add class member : Component C103 120-000204.7uF
+Add Class Member: Failed to add class member : Component C104 120-000204.7uF
+Add Class Member: Failed to add class member : Component C105 120-0004768pF
+Add Class Member: Failed to add class member : Component C106 120-0004768pF
+Add Class Member: Failed to add class member : Component C107 120-00223100µF
+Add Class Member: Failed to add class member : Component C108 120-00223100µF
+Add Class Member: Failed to add class member : Component C109 120-000204.7uF
+Add Class Member: Failed to add class member : Component C110 120-0004118pF
+Add Class Member: Failed to add class member : Component C111 120-000160.1uF
+Add Class Member: Failed to add class member : Component C112 120-0004768pF
+Add Class Member: Failed to add class member : Component C113 120-000720.47uF
+Add Class Member: Failed to add class member : Component C114 120-000160.1uF
+Add Class Member: Failed to add class member : Component C115 120-000160.1uF
+Add Class Member: Failed to add class member : Component C116 120-000204.7uF
+Add Class Member: Failed to add class member : Component C117 120-000204.7uF
+Add Class Member: Failed to add class member : Component C118 100nF
+Add Class Member: Failed to add class member : Component C119 100nF
+Add Class Member: Failed to add class member : Component C120 100nF
+Add Class Member: Failed to add class member : Component C121 100nF
+Add Class Member: Failed to add class member : Component C122 100nF
+Add Class Member: Failed to add class member : Component C123 100nF
+Add Class Member: Failed to add class member : Component C124 100nF
+Add Class Member: Failed to add class member : Component C125 100nF
+Add Class Member: Failed to add class member : Component C126 100nF
+Add Class Member: Failed to add class member : Component C127 10nF
+Add Class Member: Failed to add class member : Component C128 100nF
+Add Class Member: Failed to add class member : Component C129 100nF, 16V
+Add Class Member: Failed to add class member : Component C130 10uF, 6.3V
+Add Class Member: Failed to add class member : Component C131 100nF, 16V
+Added Member To Class: ClassName=ESP32 Member=Component C132 0402 Capacitor Template
+Added Member To Class: ClassName=ESP32 Member=Component C133 0402 Capacitor Template
+Added Member To Class: ClassName=ESP32 Member=Component C134 C0402 10uF 10V
+Added Member To Class: ClassName=ESP32 Member=Component C135 C0402 100nF 10V X5R
+Added Member To Class: ClassName=ESP32 Member=Component C136 C0402 100nF 10V X5R
+Added Member To Class: ClassName=ESP32 Member=Component C137 C0402 10uF 10V
+Added Member To Class: ClassName=ESP32 Member=Component C138 C0402 100nF 10V X5R
+Added Member To Class: ClassName=ESP32 Member=Component C139 C0402 10uF 10V
+Added Member To Class: ClassName=ESP32 Member=Component C140 C0402 100nF 10V X5R
+Added Member To Class: ClassName=ESP32 Member=Component C141 C0402 100nF 10V X5R
+Added Member To Class: ClassName=ESP32 Member=Component C142 C0402 15pF 50V C0G
+Added Member To Class: ClassName=ESP32 Member=Component C143 C0402 100nF 10V X5R
+Added Member To Class: ClassName=ESP32 Member=Component C144 C0402 10uF 10V
+Added Member To Class: ClassName=ESP32 Member=Component C145 C0402 10uF 10V
+Add Class Member: Failed to add class member : Component D11 115-00013
+Added Member To Class: ClassName=ESP32 Member=Component D12 3V3
+Added Member To Class: ClassName=ESP32 Member=Component D13 VBUS
+Add Class Member: Failed to add class member : Component D14 RGB
+Add Class Member: Failed to add class member : Component D15 LXES11DAA2-135
+Add Class Member: Failed to add class member : Component D16 LXES11DAA2-135
+Add Class Member: Failed to add class member : Component ESD1 ESD8472
+Add Class Member: Failed to add class member : Component F1 190-00005
+Add Class Member: Failed to add class member : Component FR1 600R, 2A
+Add Class Member: Failed to add class member : Component FR2 600R, 2A
+Add Class Member: Failed to add class member : Component IC1 NEO-M8Q
+Add Class Member: Failed to add class member : Component IC2 IS25LQ040
+Added Member To Class: ClassName=[6]-CH340C Member=Component J4 USB MICRO-B
+Added Member To Class: ClassName=[7]-ADC CHIP Member=Component J5 OQ0432510000G
+Added Member To Class: ClassName=[8]-DAC & MIC Member=Component J7 282834-4
+Added Member To Class: ClassName=[9]-STM32F407 Member=Component J9 OQ0432510000G
+Added Member To Class: ClassName=[10]-POWER Member=Component J11 282834-3
+Add Class Member: Failed to add class member : Component J13 Batt
+Add Class Member: Failed to add class member : Component J14 SMA board edge
+Add Class Member: Failed to add class member : Component J15 130-00105
+Add Class Member: Failed to add class member : Component J16 S2B-PH-SM4-TB
+Add Class Member: Failed to add class member : Component J17 FPC 15-pin
+Add Class Member: Failed to add class member : Component J18 FPC 15-pin
+Add Class Member: Failed to add class member : Component J19 Micro SD card holder
+Added Member To Class: ClassName=ESP32 Member=Component J20 16 Pin Mid Mount USB C
+Add Class Member: Failed to add class member : Component J21 87520-0010BLF
+Add Class Member: Failed to add class member : Component J22 87520-0010BLF
+Add Class Member: Failed to add class member : Component L1 47nH
+Added Member To Class: ClassName=ESP32 Member=Component L2 ! Inductor Template
+Added Member To Class: ClassName=ESP32 Member=Component L3 SDEM25201B-2R2MS
+Add Class Member: Failed to add class member : Component NC1 Solderbridge-ShortDNP
+Add Class Member: Failed to add class member : Component NC2 Solderbridge-ShortDNP
+Add Class Member: Failed to add class member : Component NO1 Solderbridge-OpenDNP
+Add Class Member: Failed to add class member : Component NO2 Solderbridge-OpenDNP
+Add Class Member: Failed to add class member : Component P1 Header 4
+Added Member To Class: ClassName=[11]-Motor Driver_DRV8701_2 Member=Component Q1 DMHT6016LFJ-13
+Added Member To Class: ClassName=[4]-Ethernet_PHY Member=Component R5 10 kOhms
+Added Member To Class: ClassName=[4]-Ethernet_PHY Member=Component R6 10 kOhms
+Added Member To Class: ClassName=[4]-Ethernet_PHY Member=Component R8 10 kOhms
+Added Member To Class: ClassName=[4]-Ethernet_PHY Member=Component R10 3.3 kOhms
+Added Member To Class: ClassName=[4]-Ethernet_PHY Member=Component R12 1 MOhms
+Added Member To Class: ClassName=[7]-ADC CHIP Member=Component R13 10 kOhms
+Added Member To Class: ClassName=[7]-ADC CHIP Member=Component R14 10 kOhms
+Added Member To Class: ClassName=[7]-ADC CHIP Member=Component R15 100 kOhms
+Added Member To Class: ClassName=[7]-ADC CHIP Member=Component R16 1 kOhms
+Added Member To Class: ClassName=[7]-ADC CHIP Member=Component R17 1 kOhms
+Added Member To Class: ClassName=[8]-DAC & MIC Member=Component R18 51.1 Ohms
+Added Member To Class: ClassName=[8]-DAC & MIC Member=Component R19 51.1 Ohms
+Added Member To Class: ClassName=[8]-DAC & MIC Member=Component R20 10 kOhms
+Added Member To Class: ClassName=[9]-STM32F407 Member=Component R21 100 kOhms
+Added Member To Class: ClassName=[9]-STM32F407 Member=Component R22 100 kOhms
+Added Member To Class: ClassName=[9]-STM32F407 Member=Component R23 10 kOhms
+Added Member To Class: ClassName=[11]-Motor Driver_DRV8701_2 Member=Component R24 10 kOhms
+Added Member To Class: ClassName=[11]-Motor Driver_DRV8701_2 Member=Component R26 10 kOhms
+Added Member To Class: ClassName=[11]-Motor Driver_DRV8701_2 Member=Component R28 50 mOhms
+Added Member To Class: ClassName=[11]-Motor Driver_DRV8701_2 Member=Component R30 2 kOhms
+Added Member To Class: ClassName=[11]-Motor Driver_DRV8701_2 Member=Component R32 3.3 kOhms
+Added Member To Class: ClassName=[11]-Motor Driver_DRV8701_2 Member=Component R34 10 kOhms
+Add Class Member: Failed to add class member : Component R36 0R
+Add Class Member: Failed to add class member : Component R37 0R
+Add Class Member: Failed to add class member : Component R38 0R
+Add Class Member: Failed to add class member : Component R39 0R
+Add Class Member: Failed to add class member : Component R40 10R, 5%
+Add Class Member: Failed to add class member : Component R41 10k, 1%
+Add Class Member: Failed to add class member : Component R42 0R
+Add Class Member: Failed to add class member : Component R43 0R
+Add Class Member: Failed to add class member : Component R44 0R
+Add Class Member: Failed to add class member : Component R45 0R
+Add Class Member: Failed to add class member : Component R46 0R
+Add Class Member: Failed to add class member : Component R47 0R
+Add Class Member: Failed to add class member : Component R48 180-00093100K
+Add Class Member: Failed to add class member : Component R49 180-00093100K
+Add Class Member: Failed to add class member : Component R50 180-000232.2k
+Add Class Member: Failed to add class member : Component R51 180-000232.2k
+Add Class Member: Failed to add class member : Component R52 180-000200R
+Add Class Member: Failed to add class member : Component R53 180-000541M
+Add Class Member: Failed to add class member : Component R54 180-0002410k
+Add Class Member: Failed to add class member : Component R55 180-0002410k
+Add Class Member: Failed to add class member : Component R56 180-000211k
+Add Class Member: Failed to add class member : Component R57 180-00093100K
+Add Class Member: Failed to add class member : Component R58 180-000211k
+Add Class Member: Failed to add class member : Component R59 180-0002410k
+Add Class Member: Failed to add class member : Component R60 180-000541M
+Add Class Member: Failed to add class member : Component R61 180-00031499R
+Add Class Member: Failed to add class member : Component R62 180-00098220R
+Add Class Member: Failed to add class member : Component R63 10K
+Add Class Member: Failed to add class member : Component R64 1K
+Add Class Member: Failed to add class member : Component R65 10K
+Add Class Member: Failed to add class member : Component R66 1K
+Add Class Member: Failed to add class member : Component R67 10K
+Add Class Member: Failed to add class member : Component R68 1K
+Add Class Member: Failed to add class member : Component R69 0r
+Add Class Member: Failed to add class member : Component R70 4.7K
+Add Class Member: Failed to add class member : Component R71 4.7K
+Add Class Member: Failed to add class member : Component R72 10k, 1%
+Add Class Member: Failed to add class member : Component R73 10k, 1%
+Add Class Member: Failed to add class member : Component R74 22R
+Add Class Member: Failed to add class member : Component R75 22R
+Add Class Member: Failed to add class member : Component R76 22R
+Add Class Member: Failed to add class member : Component R77 22R
+Add Class Member: Failed to add class member : Component R78 22R
+Add Class Member: Failed to add class member : Component R79 22R
+Added Member To Class: ClassName=ESP32 Member=Component R80 R0402 5.1K 1%
+Added Member To Class: ClassName=ESP32 Member=Component R81 R0402 5.1K 1%
+Added Member To Class: ClassName=ESP32 Member=Component R82 R0402 10k 1%
+Added Member To Class: ClassName=ESP32 Member=Component R83 R0402 100R 1%
+Added Member To Class: ClassName=ESP32 Member=Component R84 R0402 100R 1%
+Added Member To Class: ClassName=ESP32 Member=Component R85 R0402 1k 1%
+Added Member To Class: ClassName=ESP32 Member=Component R86 R0402 1k 1%
+Added Member To Class: ClassName=ESP32 Member=Component R87 R0402 1k 1%
+Added Member To Class: ClassName=ESP32 Member=Component R88 R0402 1k 1%
+Added Member To Class: ClassName=ESP32 Member=Component R89 R0402 1k 1%
+Added Member To Class: ClassName=ESP32 Member=Component R90 R0402 33k 1%
+Added Member To Class: ClassName=ESP32 Member=Component R91 R0402 10k 1%
+Add Class Member: Failed to add class member : Component R92 10K
+Add Class Member: Failed to add class member : Component R93 3.4K
+Add Class Member: Failed to add class member : Component RT1 Res Thermal
+Add Class Member: Failed to add class member : Component SW1 137-00002
+Add Class Member: Failed to add class member : Component TP1 TP
+Add Class Member: Failed to add class member : Component TP2 TP
+Add Class Member: Failed to add class member : Component TP3 TP
+Add Class Member: Failed to add class member : Component TP4 TP
+Add Class Member: Failed to add class member : Component TP5 TP
+Add Class Member: Failed to add class member : Component TP6 TP
+Add Class Member: Failed to add class member : Component TP7 TP
+Add Class Member: Failed to add class member : Component TP8 TP
+Add Class Member: Failed to add class member : Component TP9 TP
+Add Class Member: Failed to add class member : Component TP10 TP
+Add Class Member: Failed to add class member : Component TP11 TP
+Added Member To Class: ClassName=[6]-CH340C Member=Component U3 CH340C
+Added Member To Class: ClassName=[8]-DAC & MIC Member=Component U5 CS43L22-CNZ
+Added Member To Class: ClassName=[9]-STM32F407 Member=Component U7 STM32F407VGT6TR
+Added Member To Class: ClassName=[10]-POWER Member=Component U9 LD1117S18TR
+Add Class Member: Failed to add class member : Component U11 ICG-20330
+Add Class Member: Failed to add class member : Component U12 ADXL345
+Add Class Member: Failed to add class member : Component U13 250-00039
+Add Class Member: Failed to add class member : Component U14 LTR-303ALS-01
+Add Class Member: Failed to add class member : Component U15 LIS3MDL
+Add Class Member: Failed to add class member : Component U16 bq24230
+Add Class Member: Failed to add class member : Component U17 BQ27421
+Add Class Member: Failed to add class member : Component U18 260-00045
+Add Class Member: Failed to add class member : Component U19 TLP185
+Add Class Member: Failed to add class member : Component U20 SZNUD3160DMT1G
+Add Class Member: Failed to add class member : Component U21 TLP185
+Add Class Member: Failed to add class member : Component U22 SZNUD3160DMT1G
+Add Class Member: Failed to add class member : Component U23 TLP185
+Add Class Member: Failed to add class member : Component U24 MAX3232CUE
+Add Class Member: Failed to add class member : Component U25 M24C16-RDW6TP
+Added Member To Class: ClassName=ESP32 Member=Component U26 ESP32-S2
+Added Member To Class: ClassName=ESP32 Member=Component U27 TPS564201
+Added Member To Class: ClassName=ESP32 Member=Component Y2 40MHz
+Added Member To Class: ClassName=50OHM SINGLE-ENDED Member=Wire NetR5_2

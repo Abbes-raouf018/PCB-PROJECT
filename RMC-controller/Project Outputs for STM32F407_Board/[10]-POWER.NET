@@ -1,0 +1,44 @@
+PARTS LIST
+
+10µF              CAP 1206_3216 - 1.8MMC64
+0.1µF             CAP 0805_2012   C65
+1µF               CAP 0805_2012   C66
+10µF              CAP 1206_3216 - 1.8MMC67
+0.1µF             CAP 0805_2012   C68
+1µF               CAP 0805_2012   C69
+100uF             ACAP_P305_D393_H393_RADC70
+10µF              CAP 1206_3216 - 1.8MMC71
+0.1µF             CAP 0805_2012   C72
+1µF               CAP 0805_2012   C73
+10µF              CAP 1206_3216 - 1.8MMC74
+0.1µF             CAP 0805_2012   C75
+1µF               CAP 0805_2012   C76
+MBRS130LT3G       DO214AA SMB     D7
+BZT52C3V3-7-F     SOD-123         D8
+MBRS130LT3G       DO214AA SMB     D9
+CMDZ1L8 TR PBFREE SOD323          D10
+282834-3          TE 282834-3     J11
+MH_7.4MMC_3.2MMD  MH_7.4MMC_3.2MMDMH1
+MH_7.4MMC_3.2MMD  MH_7.4MMC_3.2MMDMH2
+MH_7.4MMC_3.2MMD  MH_7.4MMC_3.2MMDMH3
+MH_7.4MMNC_3.2MMD MH_7.4MM_3.2MMD_NON_COPPER_NPTHMH4
+LD1117S33CTR      SOT223_3        U8
+LD1117S18TR       SOT223_3        U9
+EOS
+NET LIST
+
+NODENAME +1V8             $
+    C74        2  C75        1  C76        2  D10        2  U9         2  U9         4
+NODENAME +3V3             $
+    C67        2  C68        1  C69        2  D8         2  U8         2  U8         4
+NODENAME +12V             $
+    C70        1  D7         1  D9         1  J11        1
+NODENAME EARTH            $
+    MH1        1
+NODENAME GND              $
+    C64        1  C65        2  C66        1  C67        1  C68        2  C69        1  C70        2  C71        1  C72        2  C73        1  C74        1  C75        2  C76        1  D8         1  D10        1  J11        2  J11        3  MH2        1  U8         1  U9         1
+NODENAME NetC64-2         $
+    C64        2  C65        1  C66        2  D7         2  U8         3
+NODENAME NetC71-2         $
+    C71        2  C72        1  C73        2  D9         2  U9         3
+EOS
