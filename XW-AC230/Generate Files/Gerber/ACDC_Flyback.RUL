@@ -1,0 +1,9 @@
+DRC Rules Export File for PCB: D:\Work\Altium\My Projects\ACDC_Flyback\ACDC_Flyback.PcbDoc
+RuleKind=Width|RuleName=Width_LV|Scope=Board|Minimum=11.81
+RuleKind=Clearance|RuleName=Clearance_LV|Scope=Board|Minimum=9.84
+RuleKind=Width|RuleName=Width_HV|Scope=Board|Minimum=39.37
+RuleKind=Clearance|RuleName=Clearance_HV|Scope=Board|Minimum=49.21
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=11.81
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
